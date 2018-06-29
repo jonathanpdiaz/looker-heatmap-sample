@@ -126,6 +126,14 @@
       // [{x: , y:, z:}, ...]
       let series = data.map(aesthetics);
 
+      const minColor = config.minColor || "#f66364";
+      const midColor = config.midColor || "#f5b04d";
+      const maxColor = config.maxColor || "#71c989";
+
+      const minValue = yExtent.min || 0;
+      const maxValue = yExtent.max || 1;
+      const midValue = (minValue + maxValue) / 2;
+
       let options = {
         credits: {
           enabled: false
@@ -165,7 +173,11 @@
         colorAxis: {
           min: minz,
           max: maxz,
-          stops: [[0, "#f66364"], [0.5, "#f5b04d"], [1, "#71c989"]]
+          stops: [
+            [minValue, minColor],
+            [midValue, midColor],
+            [maxValue, maxColor]
+          ]
         },
         series: [
           {

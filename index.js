@@ -1296,6 +1296,14 @@ var viz = {
     // [{x: , y:, z:}, ...]
     let series = data.map(aesthetics);
 
+    const minColor = config.minColor || "#f66364";
+    const midColor = config.midColor || "#f5b04d";
+    const maxColor = config.maxColor || "#71c989";
+
+    const minValue = yExtent.min || 0;
+    const maxValue = yExtent.max || 1;
+    const midValue = (minValue + maxValue) / 2;
+
     let options = {
       credits: {
         enabled: false
@@ -1336,9 +1344,9 @@ var viz = {
         min: minz,
         max: maxz,
         stops: [
-          [0, config.minColor],
-          [0.5, config.midColor],
-          [1, config.maxColor]
+          [minValue, minColor],
+          [midValue, midColor],
+          [maxValue, maxColor]
         ]
       },
       series: [
