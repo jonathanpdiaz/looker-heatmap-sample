@@ -1183,14 +1183,21 @@ var viz = {
       type: "string",
       label: "Minimum Color",
       display: "color",
-      default: "#fee8c8"
+      default: "#f66364"
+    },
+    midColor: {
+      section: "Chart",
+      type: "string",
+      label: "Middle Color",
+      display: "color",
+      default: "#f5b04d"
     },
     maxColor: {
       section: "Chart",
       type: "string",
       label: "Maximum Color",
       display: "color",
-      default: "#e34a33"
+      default: "#71c989"
     },
     dataLabels: {
       section: "Chart",
@@ -1329,16 +1336,16 @@ var viz = {
         min: minz,
         max: maxz,
         stops: [
-            [0, '#f66364'],
-            [0.5, '#f5b04d'],
-            [1, '#71c989']
-        ],
+          [0, config.minColor],
+          [0.5, config.midColor],
+          [1, config.maxColor]
+        ]
       },
       series: [
         {
           data: series,
           borderWidth: 1,
-          borderColor: '#bac1c4',
+          borderColor: "#bac1c4",
           dataLabels: {
             enabled: config.dataLabels,
             color: "#000000",

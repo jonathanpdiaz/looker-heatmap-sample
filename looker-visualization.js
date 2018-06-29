@@ -1,5 +1,53 @@
 (function() {
   var viz = {
+    id: "highcharts_heatmap",
+    label: "Heatmap",
+    options: {
+      chartName: {
+        section: "Chart",
+        label: "Chart Name",
+        type: "string"
+      },
+      minColor: {
+        section: "Chart",
+        type: "string",
+        label: "Minimum Color",
+        display: "color",
+        default: "#f66364"
+      },
+      midColor: {
+        section: "Chart",
+        type: "string",
+        label: "Middle Color",
+        display: "color",
+        default: "#f5b04d"
+      },
+      maxColor: {
+        section: "Chart",
+        type: "string",
+        label: "Maximum Color",
+        display: "color",
+        default: "#71c989"
+      },
+      dataLabels: {
+        section: "Chart",
+        type: "boolean",
+        label: "Data Labels",
+        default: true
+      },
+      xAxisName: {
+        label: "Axis Name",
+        section: "X",
+        type: "string",
+        placeholder: "Provide an axis name ..."
+      },
+      yAxisName: {
+        label: "Axis Name",
+        section: "Y",
+        type: "string",
+        placeholder: "Provide an axis name ..."
+      }
+    },
     // Set up the initial state of the visualization
     create: function(element, config) {
       element.innerHTML = "";
