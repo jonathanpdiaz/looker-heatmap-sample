@@ -1,7 +1,7 @@
 (function() {
   var viz = {
-    id: "highcharts_heatmap",
-    label: "Heatmap",
+    id: "kelsus_heatmap",
+    label: "Kelsus Heatmap",
     options: {
       chartName: {
         section: "Chart",
@@ -13,21 +13,21 @@
         type: "string",
         label: "Minimum Color",
         display: "color",
-        default: "#f66364"
+        default: "#c97489"
       },
       midColor: {
         section: "Chart",
         type: "string",
         label: "Middle Color",
         display: "color",
-        default: "#f5b04d"
+        default: "#fcedbf"
       },
       maxColor: {
         section: "Chart",
         type: "string",
         label: "Maximum Color",
         display: "color",
-        default: "#71c989"
+        default: "#7aaa85"
       },
       dataLabels: {
         section: "Chart",
@@ -66,6 +66,9 @@
       )
         return;
       let d3 = d3v4;
+
+      let measure_1 = config.query_fields.measures[0].name;
+      let measure_2 = config.query_fields.measures[1].name;
 
       let x = queryResponse.fields.dimension_like[0];
       let y = queryResponse.fields.dimension_like[1];
@@ -115,36 +118,37 @@
         return value;
       }
 
-      function aesthetics(d) {
-        return [
-          scaledAesthetic(d, x, xExtent.fieldScale),
-          scaledAesthetic(d, y, yExtent.fieldScale),
-          aesthetic(d, z)
-        ];
+      function aesthetics(data) {
+        return {
+          x: scaledAesthetic(data, x, xExtent.fieldScale),
+          y: scaledAesthetic(data, y, yExtent.fieldScale),
+          value: aesthetic(data, z),
+          data
+        };
       }
 
       // [{x: , y:, z:}, ...]
       let series = data.map(aesthetics);
 
-      const minColor = config.minColor || "#f66364";
-      const midColor = config.midColor || "#f5b04d";
-      const maxColor = config.maxColor || "#71c989";
-
-      const minValue = yExtent.min || 0;
-      const maxValue = yExtent.max || 1;
-      const midValue = (minValue + maxValue) / 2;
+      const minColor = config.minColor;
+      const midColor = config.midColor;
+      const maxColor = config.maxColor;
 
       let options = {
         credits: {
           enabled: false
         },
         chart: {
-          type: "heatmap",
-          plotBorderWidth: 1
+          type: "heatmap"
         },
         title: { text: config.chartName },
         legend: { enabled: false },
         xAxis: {
+          labels: {
+            align: "right",
+            reserveSpace: true
+          },
+          gridLineWidth: 0,
           type: "category",
           title: {
             text: config.xAxisName
@@ -158,6 +162,7 @@
           categories: xExtent.categories
         },
         yAxis: {
+          gridLineWidth: 0,
           type: "category",
           title: {
             text: config.yAxisName
@@ -166,35 +171,38 @@
                 ? y.label_short
                 : y.label
           },
-          min: yExtent.min,
-          max: yExtent.max,
           categories: yExtent.categories
         },
         colorAxis: {
-          min: minz,
-          max: maxz,
-          stops: [
-            [minValue, minColor],
-            [midValue, midColor],
-            [maxValue, maxColor]
+          dataClasses: [
+            {
+              color: minColor,
+              from: 0,
+              to: 0,
+              name: "min"
+            },
+            {
+              color: midColor,
+              from: 0.0001,
+              to: 1,
+              name: "min"
+            },
+            {
+              color: maxColor,
+              from: 1,
+              to: 1,
+              name: "min"
+            }
           ]
         },
         series: [
           {
             data: series,
-            borderWidth: 1,
-            borderColor: "#bac1c4",
-            dataLabels: {
-              enabled: config.dataLabels,
-              color: "#000000",
-              formatter: function() {
-                return zFormat(this.point.value);
-              }
-            },
+            borderWidth: 2,
+            borderColor: "#fff",
+            borderRadius: 4,
             tooltip: {
-              headerFormat: z.label_short
-                ? z.label_short + "<br/>"
-                : z.label + "<br/>",
+              headerFormat: "",
               pointFormatter: function() {
                 let x = xExtent.fieldScale
                   ? xExtent.categories[this.x]
@@ -203,7 +211,9 @@
                   ? yExtent.categories[this.y]
                   : this.y;
                 let z = zFormat(this.value);
-                return `${x} ${y} <b>${z}</b>`;
+                let expected = this.data[measure_1].value;
+                let missing = this.data[measure_2].value;
+                return `${x} ${y} <b>${expected - missing}/${expected}</b>`;
               }
             }
           }
