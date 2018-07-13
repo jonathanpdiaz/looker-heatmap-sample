@@ -178,12 +178,12 @@
             {
               color: minColor,
               from: 0,
-              to: 0,
+              to: 0.5,
               name: "min"
             },
             {
               color: midColor,
-              from: 0.0001,
+              from: 0.5,
               to: 1,
               name: "min"
             },
