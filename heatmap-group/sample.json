@@ -1,0 +1,682 @@
+[
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-28",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-28&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-28"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 20659
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-28&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 0,
+            "links": [
+                {
+                    "label": "Show All 0",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-28&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 1,
+            "rendered": "1"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-28",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-28&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-28"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 21438
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-28&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-28&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 0,
+            "rendered": "0"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-27",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-27&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-27"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 20653
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-27&f[location_alerts.location_id]=20653&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-27&f[location_alerts.location_id]=20653&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 0,
+            "rendered": "0"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-27",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-27&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-27"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 20659
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-27&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 0,
+            "links": [
+                {
+                    "label": "Show All 0",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-27&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 1,
+            "rendered": "1"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-27",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-27&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-27"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 21438
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 2,
+            "links": [
+                {
+                    "label": "Show All 2",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-27&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 0,
+            "links": [
+                {
+                    "label": "Show All 0",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-27&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 1,
+            "rendered": "1"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-26",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-26&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-26"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 20659
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-26&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 0,
+            "links": [
+                {
+                    "label": "Show All 0",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-26&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 1,
+            "rendered": "1"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-26",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-26&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-26"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 21438
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 2,
+            "links": [
+                {
+                    "label": "Show All 2",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-26&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 0,
+            "links": [
+                {
+                    "label": "Show All 0",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-26&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 1,
+            "rendered": "1"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-25",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-25&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-25"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 20659
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-25&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 0,
+            "links": [
+                {
+                    "label": "Show All 0",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-25&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 1,
+            "rendered": "1"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-25",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-25&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-25"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 21438
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 2,
+            "links": [
+                {
+                    "label": "Show All 2",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-25&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 0,
+            "links": [
+                {
+                    "label": "Show All 0",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-25&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 1,
+            "rendered": "1"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-24",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-24&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-24"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 20659
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-24&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 0,
+            "links": [
+                {
+                    "label": "Show All 0",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-24&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 1,
+            "rendered": "1"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-24",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-24&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-24"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 21438
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 2,
+            "links": [
+                {
+                    "label": "Show All 2",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-24&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 2,
+            "links": [
+                {
+                    "label": "Show All 2",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-24&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 0,
+            "rendered": "0"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-23",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-23&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-23"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 20653
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-23&f[location_alerts.location_id]=20653&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-23&f[location_alerts.location_id]=20653&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 0,
+            "rendered": "0"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-23",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-23&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-23"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 20659
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-23&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 0,
+            "links": [
+                {
+                    "label": "Show All 0",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-23&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 1,
+            "rendered": "1"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-23",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-23&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-23"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 21438
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 2,
+            "links": [
+                {
+                    "label": "Show All 2",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-23&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 0,
+            "links": [
+                {
+                    "label": "Show All 0",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-23&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 1,
+            "rendered": "1"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-22",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-22&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-22"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 20653
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-22&f[location_alerts.location_id]=20653&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-22&f[location_alerts.location_id]=20653&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 0,
+            "rendered": "0"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-22",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-22&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-22"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 20659
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 1,
+            "links": [
+                {
+                    "label": "Show All 1",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-22&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 0,
+            "links": [
+                {
+                    "label": "Show All 0",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-22&f[location_alerts.location_id]=20659&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 1,
+            "rendered": "1"
+        }
+    },
+    {
+        "location_alerts.expected_punch_date": {
+            "value": "2018-06-22",
+            "links": [
+                {
+                    "label": "by Expected Punch Time",
+                    "url": "/explore/Attendance/location_alerts?fields=location_alerts.expected_punch_time,location_alerts.location_id,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.expected_punch_date]=2018-06-22&f[location_alerts.location_id]=21438%2C20653%2C20659&sorts=location_alerts.expected_punch_date desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22percentage%22%2C%22label%22%3A%22Percentage%22%2C%22expression%22%3A%22%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+                    "type": "drill",
+                    "type_label": "Drill into 2018-06-22"
+                }
+            ]
+        },
+        "location_alerts.location_id": {
+            "value": 21438
+        },
+        "location_alerts.expected_punch_count": {
+            "value": 2,
+            "links": [
+                {
+                    "label": "Show All 2",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-22&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "location_alerts.missing_punch_count": {
+            "value": 0,
+            "links": [
+                {
+                    "label": "Show All 0",
+                    "url": "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.expected_punch_date]=2018-06-22&f[location_alerts.location_id]=21438&limit=500",
+                    "type": "measure_default"
+                }
+            ]
+        },
+        "percentage": {
+            "value": 1,
+            "rendered": "1"
+        }
+    }
+]

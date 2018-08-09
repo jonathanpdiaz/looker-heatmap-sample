@@ -1,4 +1,31 @@
 (function() {
+  let rect;
+
+  function drawRect(chart) {
+    if (rect) {
+      rect.element.remove();
+    }
+
+    var xAxis = chart.yAxis[0];
+    var pixStart = xAxis.toPixels(xAxis.tickPositions[0], false);
+    var pixEnd = xAxis.toPixels(xAxis.tickPositions[3], false);
+    rect = chart.renderer
+      .rect(
+        pixStart,
+        chart.chartHeight - xAxis.bottom,
+        pixEnd - pixStart,
+        25,
+        00
+      )
+      .attr({
+        "stroke-width": 0,
+        stroke: "#888888",
+        fill: "#888888",
+        zIndex: 9876
+      })
+      .add();
+  }
+
   var viz = {
     id: "kelsus_heatmap",
     label: "Kelsus Heatmap",
@@ -99,6 +126,7 @@
           .scaleOrdinal()
           .domain(categories)
           .range(d3.range(0, categories.length, 1));
+
         return {
           min: min,
           max: max,
@@ -109,6 +137,17 @@
 
       let xExtent = fieldExtent(data, x);
       let yExtent = fieldExtent(data, y);
+
+      yExtent.categories = [
+        {
+          name: "AMAZON DEN6",
+          categories: ["21:00", "13:00", "07:00", "05:00"]
+        },
+        {
+          name: "AMAZON DAL6",
+          categories: ["22:00", "14:30", "14:00", "08:00", "06:00"]
+        }
+      ];
 
       let [minz, maxz] = d3.extent(data, function(d) {
         return aesthetic(d, z);
@@ -132,7 +171,7 @@
       }
 
       // [{x: , y:, z:}, ...]
-      
+
       let series = data.map(aesthetics);
 
       const minColor = config.minColor;
@@ -144,7 +183,15 @@
           enabled: false
         },
         chart: {
-          type: "heatmap"
+          type: "heatmap",
+          events: {
+            load: function() {
+              drawRect(this);
+            },
+            redraw: function() {
+              drawRect(this);
+            }
+          }
         },
         title: { text: config.chartName },
         legend: { enabled: false },
@@ -153,7 +200,6 @@
             align: "right",
             reserveSpace: true
           },
-          gridLineWidth: 0,
           type: "category",
           title: {
             text: config.xAxisName
@@ -167,7 +213,10 @@
           categories: xExtent.categories
         },
         yAxis: {
-          gridLineWidth: 0,
+          labels: {
+            rotation: -90,
+          },
+          tickWidth: 1,
           type: "category",
           title: {
             text: config.yAxisName

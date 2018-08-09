@@ -35,6 +35,12 @@
         label: "Data Labels",
         default: true
       },
+      group: {
+        section: "Chart",
+        type: "boolean",
+        label: "Group",
+        default: false
+      },
       xAxisName: {
         label: "Axis Name",
         section: "X",
@@ -47,6 +53,21 @@
         type: "string",
         placeholder: "Provide an axis name ..."
       }
+    },
+
+    groupBy: function(xs, key) {
+      const reduced = xs.reduce(function(rv, x) {
+        (rv[x[key]] = rv[x[key]] || []).push(x);
+        return rv;
+      }, {});
+      const array = [];
+      for (item in reduced) {
+        array.push({
+          name: item,
+          categories: reduced[item].map(item => item.detail)
+        });
+      }
+      return array;
     },
 
     // Set up the initial state of the visualization
@@ -80,12 +101,16 @@
 
       let zFormat = formatType(z.value_format);
 
+      data = data.sort((a, b) => {
+        return a[x.name].value > b[x.name].value && a[y.name].value < b[y.name].value;
+      });
+
       function aesthetic(datum, field) {
         let value = datum[field.name].value;
         return value;
       }
 
-      function fieldExtent(data, field) {
+      function fieldExtent(data, field, sort) {
         let [min, max] = [null, null];
         let categories = null;
         let fieldScale = null;
@@ -95,6 +120,7 @@
             return aesthetic(d, field);
           })
           .keys();
+        categories = sort === 1 ? categories.sort() : categories.reverse();
         fieldScale = d3
           .scaleOrdinal()
           .domain(categories)
@@ -107,8 +133,23 @@
         };
       }
 
-      let xExtent = fieldExtent(data, x);
-      let yExtent = fieldExtent(data, y);
+      let xExtent = fieldExtent(data, x, -1);
+      let yExtent = fieldExtent(data, y, 1);
+
+      if (config.group) {
+        let grouped = yExtent.categories.map(item => {
+          const splited = item.split("-");
+          const group = splited.length > 0 ? splited[0].trim() : "";
+          const detail = splited.length > 1 ? splited[1].trim() : "";
+          return {
+            group,
+            detail
+          };
+        });
+        grouped = this.groupBy(grouped, "group");
+        yExtent.categories = grouped;
+        console.log(grouped);
+      }
 
       let [minz, maxz] = d3.extent(data, function(d) {
         return aesthetic(d, z);
@@ -132,7 +173,7 @@
       }
 
       // [{x: , y:, z:}, ...]
-      
+
       let series = data.map(aesthetics);
 
       const minColor = config.minColor;
@@ -167,6 +208,16 @@
           categories: xExtent.categories
         },
         yAxis: {
+          labels: {
+            x: -5,
+            groupedOptions: [
+              {
+                // rotation: -90
+              },
+              {}
+            ]
+          },
+          tickWidth: 1,
           gridLineWidth: 0,
           type: "category",
           title: {
