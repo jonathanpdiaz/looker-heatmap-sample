@@ -101,17 +101,12 @@
 
       let zFormat = formatType(z.value_format);
 
-      data = data.sort((a, b) => {
-        return a[x.name].value > b[x.name].value && a[y.name].value < b[y.name].value;
-      });
-
       function aesthetic(datum, field) {
         let value = datum[field.name].value;
         return value;
       }
 
-      function fieldExtent(data, field, sort) {
-        let [min, max] = [null, null];
+      function fieldExtent(data, field, reverse) {
         let categories = null;
         let fieldScale = null;
 
@@ -120,21 +115,19 @@
             return aesthetic(d, field);
           })
           .keys();
-        categories = sort === 1 ? categories.sort() : categories.reverse();
+        categories = reverse ? categories.reverse() : categories;
         fieldScale = d3
           .scaleOrdinal()
           .domain(categories)
           .range(d3.range(0, categories.length, 1));
         return {
-          min: min,
-          max: max,
           categories: categories,
           fieldScale: fieldScale
         };
       }
 
-      let xExtent = fieldExtent(data, x, -1);
-      let yExtent = fieldExtent(data, y, 1);
+      let xExtent = fieldExtent(data, x, true);
+      let yExtent = fieldExtent(data, y);
 
       if (config.group) {
         let grouped = yExtent.categories.map(item => {
@@ -148,7 +141,6 @@
         });
         grouped = this.groupBy(grouped, "group");
         yExtent.categories = grouped;
-        console.log(grouped);
       }
 
       let [minz, maxz] = d3.extent(data, function(d) {

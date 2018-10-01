@@ -6,21 +6,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-26"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 21:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 21:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DEN6+-+21%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DEN6+-+21%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -31,7 +31,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DEN6+-+21%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DEN6+-+21%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -45,21 +45,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-27"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 21:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 21:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DEN6+-+21%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DEN6+-+21%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -70,7 +70,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DEN6+-+21%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DEN6+-+21%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -84,21 +84,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-29"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 21:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 21:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=AMAZON+DEN6+-+21%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=+DEN6+-+21%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -109,7 +109,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=AMAZON+DEN6+-+21%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=+DEN6+-+21%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -123,21 +123,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-30"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 21:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 21:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DEN6+-+21%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DEN6+-+21%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -148,7 +148,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DEN6+-+21%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DEN6+-+21%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -162,21 +162,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-31"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 21:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 21:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DEN6+-+21%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DEN6+-+21%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -187,7 +187,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DEN6+-+21%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DEN6+-+21%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -201,21 +201,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-28"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 21:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 21:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DEN6+-+21%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DEN6+-+21%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -226,7 +226,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DEN6+-+21%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DEN6+-+21%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -240,21 +240,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-27"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 13:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 13:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -265,7 +265,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -279,21 +279,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-29"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 13:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 13:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -304,7 +304,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -318,21 +318,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-30"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 13:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 13:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 7,
       links: [
         {
           label: "Show All 7",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -343,7 +343,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -357,21 +357,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-31"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 13:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 13:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -382,7 +382,7 @@ const data = [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -396,21 +396,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-08-01"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 13:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 13:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -421,7 +421,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -435,21 +435,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-26"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 13:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 13:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -460,7 +460,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -474,21 +474,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-28"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 13:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 13:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -499,7 +499,7 @@ const data = [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DEN6+-+13%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DEN6+-+13%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -513,21 +513,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-27"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 07:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 07:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 0,
       links: [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DEN6+-+07%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DEN6+-+07%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -538,7 +538,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DEN6+-+07%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DEN6+-+07%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -552,21 +552,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-30"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 07:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 07:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 0,
       links: [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DEN6+-+07%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DEN6+-+07%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -577,7 +577,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DEN6+-+07%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DEN6+-+07%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -591,21 +591,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-26"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 07:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 07:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DEN6+-+07%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DEN6+-+07%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -616,7 +616,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DEN6+-+07%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DEN6+-+07%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -630,21 +630,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-08-01"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 07:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 07:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 0,
       links: [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=AMAZON+DEN6+-+07%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=+DEN6+-+07%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -655,7 +655,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=AMAZON+DEN6+-+07%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=+DEN6+-+07%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -669,21 +669,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-31"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 07:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 07:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 0,
       links: [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DEN6+-+07%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DEN6+-+07%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -694,7 +694,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DEN6+-+07%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DEN6+-+07%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -708,21 +708,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-26"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 05:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 05:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 7,
       links: [
         {
           label: "Show All 7",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -733,7 +733,7 @@ const data = [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -747,21 +747,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-27"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 05:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 05:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -772,7 +772,7 @@ const data = [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -786,21 +786,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-28"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 05:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 05:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -811,7 +811,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -825,21 +825,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-29"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 05:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 05:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -850,7 +850,7 @@ const data = [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -864,21 +864,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-30"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 05:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 05:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -889,7 +889,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -903,21 +903,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-31"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 05:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 05:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -928,7 +928,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -942,21 +942,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-08-01"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 05:00" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 05:00" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -967,7 +967,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=AMAZON+DEN6+-+05%3A00&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=+DEN6+-+05%3A00&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -981,21 +981,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-26"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 22:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 22:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DAL6+-+22%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DAL6+-+22%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1006,7 +1006,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DAL6+-+22%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DAL6+-+22%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1020,21 +1020,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-27"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 22:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 22:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DAL6+-+22%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DAL6+-+22%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1045,7 +1045,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DAL6+-+22%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DAL6+-+22%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1059,21 +1059,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-28"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 22:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 22:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DAL6+-+22%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DAL6+-+22%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1084,7 +1084,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DAL6+-+22%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DAL6+-+22%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1098,21 +1098,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-29"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 22:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 22:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=AMAZON+DAL6+-+22%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=+DAL6+-+22%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1123,7 +1123,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=AMAZON+DAL6+-+22%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=+DAL6+-+22%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1137,21 +1137,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-30"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 22:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 22:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DAL6+-+22%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DAL6+-+22%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1162,7 +1162,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DAL6+-+22%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DAL6+-+22%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1176,21 +1176,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-31"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 22:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 22:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DAL6+-+22%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DAL6+-+22%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1201,7 +1201,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DAL6+-+22%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DAL6+-+22%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1215,21 +1215,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-28"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 14:30" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 14:30" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A30&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DAL6+-+14%3A30&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1240,7 +1240,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A30&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DAL6+-+14%3A30&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1254,21 +1254,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-27"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 14:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 14:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1279,7 +1279,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1293,21 +1293,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-28"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 14:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 14:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1318,7 +1318,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1332,21 +1332,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-29"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 14:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 14:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1357,7 +1357,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1371,21 +1371,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-30"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 14:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 14:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1396,7 +1396,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1410,21 +1410,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-31"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 14:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 14:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1435,7 +1435,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1449,21 +1449,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-08-01"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 14:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 14:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1474,7 +1474,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1488,21 +1488,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-26"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 14:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 14:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1513,7 +1513,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DAL6+-+14%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DAL6+-+14%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1527,21 +1527,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-26"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 08:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 08:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DAL6+-+08%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DAL6+-+08%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1552,7 +1552,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DAL6+-+08%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DAL6+-+08%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1566,21 +1566,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-27"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 08:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 08:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DAL6+-+08%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DAL6+-+08%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1591,7 +1591,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=AMAZON+DAL6+-+08%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-27&f[location_alerts.shift]=+DAL6+-+08%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1605,21 +1605,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-30"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 08:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 08:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DAL6+-+08%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DAL6+-+08%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1630,7 +1630,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DAL6+-+08%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DAL6+-+08%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1644,21 +1644,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-31"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 08:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 08:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DAL6+-+08%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DAL6+-+08%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1669,7 +1669,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DAL6+-+08%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DAL6+-+08%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1683,21 +1683,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-08-01"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 08:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 08:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=AMAZON+DAL6+-+08%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=+DAL6+-+08%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1708,7 +1708,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=AMAZON+DAL6+-+08%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=+DAL6+-+08%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1722,21 +1722,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-26"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 06:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 06:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DAL6+-+06%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DAL6+-+06%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1747,7 +1747,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=AMAZON+DAL6+-+06%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-26&f[location_alerts.shift]=+DAL6+-+06%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1761,21 +1761,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-28"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 06:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 06:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DAL6+-+06%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DAL6+-+06%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1786,7 +1786,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=AMAZON+DAL6+-+06%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-28&f[location_alerts.shift]=+DAL6+-+06%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1800,21 +1800,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-29"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 06:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 06:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=AMAZON+DAL6+-+06%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=+DAL6+-+06%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1825,7 +1825,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=AMAZON+DAL6+-+06%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-29&f[location_alerts.shift]=+DAL6+-+06%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1839,21 +1839,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-30"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 06:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 06:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DAL6+-+06%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DAL6+-+06%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1864,7 +1864,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=AMAZON+DAL6+-+06%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-30&f[location_alerts.shift]=+DAL6+-+06%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1878,21 +1878,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-07-31"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 06:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 06:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DAL6+-+06%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DAL6+-+06%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1903,7 +1903,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=AMAZON+DAL6+-+06%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-07-31&f[location_alerts.shift]=+DAL6+-+06%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1917,21 +1917,21 @@ const data = [
         {
           label: "by Pseudo Local Expected Punch Time",
           url:
-            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[locations.name]=AMAZON+DEN6%2CAMAZON+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+            "/explore/Attendance/location_alerts?fields=location_alerts.pseudo_local_expected_punch_time,location_alerts.shift,locations.name,location_alerts.expected_punch_count,location_alerts.missing_punch_count&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[locations.name]=+DEN6%2C+DAL6&sorts=location_alerts.shift desc&limit=500&column_limit=50&dynamic_fields=%5B%7B%22table_calculation%22%3A%22attendance_percentage%22%2C%22label%22%3A%22Attendance+Percentage%22%2C%22expression%22%3A%22round%28%28%24%7Blocation_alerts.expected_punch_count%7D+-%24%7Blocation_alerts.missing_punch_count%7D%29%2F%28%24%7Blocation_alerts.expected_punch_count%7D%29%2C+2%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3Anull%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
           type: "drill",
           type_label: "Drill into 2018-08-01"
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 06:00" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 06:00" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=AMAZON+DAL6+-+06%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=+DAL6+-+06%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1942,7 +1942,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=AMAZON+DAL6+-+06%3A00&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-01&f[location_alerts.shift]=+DAL6+-+06%3A00&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2219,9 +2219,9 @@ const queryResponse = {
   ran_at: "2018-08-01T19:18:09+00:00",
   runtime: "0.163",
   sql:
-    "SELECT \n\tDATE(location_alerts.pseudo_local_expected_punch_at ) AS \"location_alerts.pseudo_local_expected_punch_date\",\n\tlocations.name || ' - ' || to_char(location_alerts.pseudo_local_expected_punch_at, 'HH24:MI') AS \"location_alerts.shift\",\n\tlocations.name  AS \"locations.name\",\n\tCOALESCE(SUM(location_alerts.expected_punch_count ), 0) AS \"location_alerts.expected_punch_count\",\n\tCOALESCE(SUM(location_alerts.missing_punch_count ), 0) AS \"location_alerts.missing_punch_count\"\nFROM public.location_alerts  AS location_alerts\nINNER JOIN public.locations  AS locations ON location_alerts.location_id = locations.id \nINNER JOIN public.parent_customer_groups  AS parent_customer_groups ON locations.parent_group_src_id = parent_customer_groups.src_id\n\nWHERE ((((location_alerts.pseudo_local_expected_punch_at ) >= ((SELECT (DATE_TRUNC('day', CURRENT_TIMESTAMP) + (-6 || ' day')::INTERVAL))) AND (location_alerts.pseudo_local_expected_punch_at ) < ((SELECT ((DATE_TRUNC('day', CURRENT_TIMESTAMP) + (-6 || ' day')::INTERVAL) + (7 || ' day')::INTERVAL)))))) AND ((locations.name  IN ('AMAZON DEN6', 'AMAZON DAL6'))) AND (parent_customer_groups.src_id  = 1210)\nGROUP BY 1,2,3\nORDER BY 2 DESC\nLIMIT 500",
+    "SELECT \n\tDATE(location_alerts.pseudo_local_expected_punch_at ) AS \"location_alerts.pseudo_local_expected_punch_date\",\n\tlocations.name || ' - ' || to_char(location_alerts.pseudo_local_expected_punch_at, 'HH24:MI') AS \"location_alerts.shift\",\n\tlocations.name  AS \"locations.name\",\n\tCOALESCE(SUM(location_alerts.expected_punch_count ), 0) AS \"location_alerts.expected_punch_count\",\n\tCOALESCE(SUM(location_alerts.missing_punch_count ), 0) AS \"location_alerts.missing_punch_count\"\nFROM public.location_alerts  AS location_alerts\nINNER JOIN public.locations  AS locations ON location_alerts.location_id = locations.id \nINNER JOIN public.parent_customer_groups  AS parent_customer_groups ON locations.parent_group_src_id = parent_customer_groups.src_id\n\nWHERE ((((location_alerts.pseudo_local_expected_punch_at ) >= ((SELECT (DATE_TRUNC('day', CURRENT_TIMESTAMP) + (-6 || ' day')::INTERVAL))) AND (location_alerts.pseudo_local_expected_punch_at ) < ((SELECT ((DATE_TRUNC('day', CURRENT_TIMESTAMP) + (-6 || ' day')::INTERVAL) + (7 || ' day')::INTERVAL)))))) AND ((locations.name  IN (' DEN6', ' DAL6'))) AND (parent_customer_groups.src_id  = 1210)\nGROUP BY 1,2,3\nORDER BY 2 DESC\nLIMIT 500",
   sql_explain:
-    "EXPLAIN SELECT \n\tDATE(location_alerts.pseudo_local_expected_punch_at ) AS \"location_alerts.pseudo_local_expected_punch_date\",\n\tlocations.name || ' - ' || to_char(location_alerts.pseudo_local_expected_punch_at, 'HH24:MI') AS \"location_alerts.shift\",\n\tlocations.name  AS \"locations.name\",\n\tCOALESCE(SUM(location_alerts.expected_punch_count ), 0) AS \"location_alerts.expected_punch_count\",\n\tCOALESCE(SUM(location_alerts.missing_punch_count ), 0) AS \"location_alerts.missing_punch_count\"\nFROM public.location_alerts  AS location_alerts\nINNER JOIN public.locations  AS locations ON location_alerts.location_id = locations.id \nINNER JOIN public.parent_customer_groups  AS parent_customer_groups ON locations.parent_group_src_id = parent_customer_groups.src_id\n\nWHERE ((((location_alerts.pseudo_local_expected_punch_at ) >= ((SELECT (DATE_TRUNC('day', CURRENT_TIMESTAMP) + (-6 || ' day')::INTERVAL))) AND (location_alerts.pseudo_local_expected_punch_at ) < ((SELECT ((DATE_TRUNC('day', CURRENT_TIMESTAMP) + (-6 || ' day')::INTERVAL) + (7 || ' day')::INTERVAL)))))) AND ((locations.name  IN ('AMAZON DEN6', 'AMAZON DAL6'))) AND (parent_customer_groups.src_id  = 1210)\nGROUP BY 1,2,3\nORDER BY 2 DESC\nLIMIT 500",
+    "EXPLAIN SELECT \n\tDATE(location_alerts.pseudo_local_expected_punch_at ) AS \"location_alerts.pseudo_local_expected_punch_date\",\n\tlocations.name || ' - ' || to_char(location_alerts.pseudo_local_expected_punch_at, 'HH24:MI') AS \"location_alerts.shift\",\n\tlocations.name  AS \"locations.name\",\n\tCOALESCE(SUM(location_alerts.expected_punch_count ), 0) AS \"location_alerts.expected_punch_count\",\n\tCOALESCE(SUM(location_alerts.missing_punch_count ), 0) AS \"location_alerts.missing_punch_count\"\nFROM public.location_alerts  AS location_alerts\nINNER JOIN public.locations  AS locations ON location_alerts.location_id = locations.id \nINNER JOIN public.parent_customer_groups  AS parent_customer_groups ON locations.parent_group_src_id = parent_customer_groups.src_id\n\nWHERE ((((location_alerts.pseudo_local_expected_punch_at ) >= ((SELECT (DATE_TRUNC('day', CURRENT_TIMESTAMP) + (-6 || ' day')::INTERVAL))) AND (location_alerts.pseudo_local_expected_punch_at ) < ((SELECT ((DATE_TRUNC('day', CURRENT_TIMESTAMP) + (-6 || ' day')::INTERVAL) + (7 || ' day')::INTERVAL)))))) AND ((locations.name  IN (' DEN6', ' DAL6'))) AND (parent_customer_groups.src_id  = 1210)\nGROUP BY 1,2,3\nORDER BY 2 DESC\nLIMIT 500",
   supports_pivot_in_db: true,
   timezone: "America/Los_Angeles",
   is_local: true,

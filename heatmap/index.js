@@ -1831,8 +1831,17 @@ let looker = {
   plugins: {
     visualizations: {
       add: function(viz) {
+        let options = {};
+        for (option in viz.options) {
+          options[option] = viz.options[option].default;
+        }
         viz.create("container");
-        viz.update(data, "container", config, queryResponse);
+        viz.update(
+          data,
+          "container",
+          Object.assign(options, config),
+          queryResponse
+        );
       }
     }
   }

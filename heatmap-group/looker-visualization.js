@@ -140,11 +140,11 @@
 
       yExtent.categories = [
         {
-          name: "AMAZON DEN6",
+          name: " DEN6",
           categories: ["21:00", "13:00", "07:00", "05:00"]
         },
         {
-          name: "AMAZON DAL6",
+          name: " DAL6",
           categories: ["22:00", "14:30", "14:00", "08:00", "06:00"]
         }
       ];

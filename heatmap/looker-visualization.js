@@ -8,6 +8,29 @@
         label: "Chart Name",
         type: "string"
       },
+      fillEmpty: {
+        section: "Empty",
+        type: "boolean",
+        label: "Fill empty cells",
+        default: false,
+        order: 1
+      },
+      emptyColor: {
+        section: "Empty",
+        type: "string",
+        label: "Empty cell Color",
+        display: "color",
+        default: "#eee",
+        order: 2
+      },
+      emptyTooltip: {
+        label: "Empty cell Tooltip",
+        section: "Empty",
+        type: "string",
+        placeholder: "Provide an text ...",
+        default: 'No Service',
+        order: 3
+      },
       minColor: {
         section: "Chart",
         type: "string",
@@ -29,11 +52,39 @@
         display: "color",
         default: "#7aaa85"
       },
-      dataLabels: {
+      minThreshold: {
         section: "Chart",
+        type: "number",
+        label: "Minimum Threshold",
+        display: "number",
+        default: 0
+      },
+      midThreshold: {
+        section: "Chart",
+        type: "number",
+        label: "Middle Threshold",
+        display: "number",
+        default: 0.5
+      },
+      maxThreshold: {
+        section: "Chart",
+        type: "number",
+        label: "Maximum Threshold",
+        display: "number",
+        default: 1
+      },
+      labels: {
+        section: "Label",
         type: "boolean",
         label: "Data Labels",
-        default: true
+        default: false
+      },
+      labelColor: {
+        section: "Label",
+        type: "string",
+        label: "Label Color",
+        display: "color",
+        default: "#000"
       },
       xAxisName: {
         label: "Axis Name",
@@ -47,6 +98,21 @@
         type: "string",
         placeholder: "Provide an axis name ..."
       }
+    },
+
+    groupBy: function(xs, key) {
+      const reduced = xs.reduce(function(rv, x) {
+        (rv[x[key]] = rv[x[key]] || []).push(x);
+        return rv;
+      }, {});
+      const array = [];
+      for (item in reduced) {
+        array.push({
+          name: item,
+          categories: reduced[item].map(item => item.detail)
+        });
+      }
+      return array;
     },
 
     // Set up the initial state of the visualization
@@ -85,8 +151,7 @@
         return value;
       }
 
-      function fieldExtent(data, field) {
-        let [min, max] = [null, null];
+      function fieldExtent(data, field, reverse) {
         let categories = null;
         let fieldScale = null;
 
@@ -95,19 +160,18 @@
             return aesthetic(d, field);
           })
           .keys();
+        categories = reverse ? categories.sort().reverse() : categories;
         fieldScale = d3
           .scaleOrdinal()
           .domain(categories)
           .range(d3.range(0, categories.length, 1));
         return {
-          min: min,
-          max: max,
           categories: categories,
           fieldScale: fieldScale
         };
       }
 
-      let xExtent = fieldExtent(data, x);
+      let xExtent = fieldExtent(data, x, true);
       let yExtent = fieldExtent(data, y);
 
       let [minz, maxz] = d3.extent(data, function(d) {
@@ -132,12 +196,44 @@
       }
 
       // [{x: , y:, z:}, ...]
-      
       let series = data.map(aesthetics);
 
       const minColor = config.minColor;
       const midColor = config.midColor;
       const maxColor = config.maxColor;
+      const emptyColor = config.emptyColor;
+
+      const minThreshold = config.minThreshold;
+      const midThreshold = config.midThreshold;
+      const maxThreshold = config.maxThreshold;
+
+      const labels = config.labels;
+      const labelColor = config.labelColor;
+      
+      const emptyTooltip = config.emptyTooltip;
+      const fillEmpty = config.fillEmpty;
+
+      if (fillEmpty) {
+        for (let xIndex = 0; xIndex < xExtent.categories.length; xIndex++) {
+          for (let yIndex = 0; yIndex < yExtent.categories.length; yIndex++) {
+            const item = series.find(function(element) {
+              return element.x === xIndex && element.y === yIndex;
+            });
+            if (!item) {
+              series.push({
+                x: xIndex,
+                y: yIndex,
+                value: null
+              });
+            }
+          }
+        }
+      }
+
+      dataLabels = {
+        enabled: labels,
+        color: labelColor
+      };
 
       let options = {
         credits: {
@@ -167,6 +263,16 @@
           categories: xExtent.categories
         },
         yAxis: {
+          labels: {
+            x: -5,
+            groupedOptions: [
+              {
+                // rotation: -90
+              },
+              {}
+            ]
+          },
+          tickWidth: 1,
           gridLineWidth: 0,
           type: "category",
           title: {
@@ -182,21 +288,20 @@
           dataClasses: [
             {
               color: minColor,
-              from: 0,
-              to: 0.5,
+              from: minThreshold,
+              to: midThreshold,
               name: "min"
             },
             {
               color: midColor,
-              from: 0.5,
-              to: 1,
-              name: "min"
+              from: midThreshold,
+              to: maxThreshold,
+              name: "mid"
             },
             {
               color: maxColor,
-              from: 1,
-              to: 1,
-              name: "min"
+              from: maxThreshold,
+              name: "max"
             }
           ]
         },
@@ -205,20 +310,25 @@
             data: series,
             borderWidth: 2,
             borderColor: "#fff",
+            nullColor: emptyColor,
             borderRadius: 4,
+            dataLabels,
             tooltip: {
               headerFormat: "",
               pointFormatter: function() {
-                let x = xExtent.fieldScale
-                  ? xExtent.categories[this.x]
-                  : this.x;
-                let y = yExtent.fieldScale
-                  ? yExtent.categories[this.y]
-                  : this.y;
-                let z = zFormat(this.value);
-                let expected = this.data[measure_1].value;
-                let missing = this.data[measure_2].value;
-                return `${x} ${y} <b>${expected - missing}/${expected}</b>`;
+                if (this.data) {
+                  let x = xExtent.fieldScale
+                    ? xExtent.categories[this.x]
+                    : this.x;
+                  let y = yExtent.fieldScale
+                    ? yExtent.categories[this.y]
+                    : this.y;
+                  let expected = this.data[measure_1].value;
+                  let missing = this.data[measure_2].value;
+                  return `${x} ${y} <b>${expected - missing}/${expected}</b>`;
+                } else {
+                  return emptyTooltip;
+                }
               }
             }
           }

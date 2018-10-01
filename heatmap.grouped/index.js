@@ -12,15 +12,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON SJC9 - 3rd Shift" },
-    "locations.name": { value: "AMAZON SJC9" },
+    "location_alerts.shift": { value: " SJC9 - 3rd Shift" },
+    "locations.name": { value: " SJC9" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+SJC9+-+3rd+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+SJC9+-+3rd+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -31,7 +31,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+SJC9+-+3rd+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+SJC9+-+3rd+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -51,15 +51,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON SJC9 - 2nd Shift" },
-    "locations.name": { value: "AMAZON SJC9" },
+    "location_alerts.shift": { value: " SJC9 - 2nd Shift" },
+    "locations.name": { value: " SJC9" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+SJC9+-+2nd+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+SJC9+-+2nd+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -70,7 +70,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+SJC9+-+2nd+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+SJC9+-+2nd+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -90,15 +90,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON SJC9 - 1st Shift" },
-    "locations.name": { value: "AMAZON SJC9" },
+    "location_alerts.shift": { value: " SJC9 - 1st Shift" },
+    "locations.name": { value: " SJC9" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+SJC9+-+1st+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+SJC9+-+1st+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -109,7 +109,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+SJC9+-+1st+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+SJC9+-+1st+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -129,15 +129,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ORD6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON ORD6" },
+    "location_alerts.shift": { value: " ORD6 - 3rd Shift" },
+    "locations.name": { value: " ORD6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ORD6+-+3rd+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ORD6+-+3rd+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -148,7 +148,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ORD6+-+3rd+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ORD6+-+3rd+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -168,15 +168,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ORD6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON ORD6" },
+    "location_alerts.shift": { value: " ORD6 - 2nd Shift" },
+    "locations.name": { value: " ORD6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ORD6+-+2nd+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ORD6+-+2nd+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -187,7 +187,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ORD6+-+2nd+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ORD6+-+2nd+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -207,15 +207,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ORD6 - 1st Shift" },
-    "locations.name": { value: "AMAZON ORD6" },
+    "location_alerts.shift": { value: " ORD6 - 1st Shift" },
+    "locations.name": { value: " ORD6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ORD6+-+1st+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ORD6+-+1st+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -226,7 +226,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ORD6+-+1st+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ORD6+-+1st+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -246,15 +246,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ONT8 - 3rd Shift" },
-    "locations.name": { value: "AMAZON ONT8" },
+    "location_alerts.shift": { value: " ONT8 - 3rd Shift" },
+    "locations.name": { value: " ONT8" },
     "location_alerts.expected_punch_count": {
       value: 6,
       links: [
         {
           label: "Show All 6",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ONT8+-+3rd+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ONT8+-+3rd+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -265,7 +265,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ONT8+-+3rd+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ONT8+-+3rd+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -285,15 +285,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ONT8 - 2nd Shift" },
-    "locations.name": { value: "AMAZON ONT8" },
+    "location_alerts.shift": { value: " ONT8 - 2nd Shift" },
+    "locations.name": { value: " ONT8" },
     "location_alerts.expected_punch_count": {
       value: 6,
       links: [
         {
           label: "Show All 6",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ONT8+-+2nd+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ONT8+-+2nd+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -304,7 +304,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ONT8+-+2nd+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ONT8+-+2nd+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -324,15 +324,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ONT8 - 1st Shift" },
-    "locations.name": { value: "AMAZON ONT8" },
+    "location_alerts.shift": { value: " ONT8 - 1st Shift" },
+    "locations.name": { value: " ONT8" },
     "location_alerts.expected_punch_count": {
       value: 8,
       links: [
         {
           label: "Show All 8",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ONT8+-+1st+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ONT8+-+1st+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -343,7 +343,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ONT8+-+1st+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ONT8+-+1st+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -363,15 +363,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ONT4 - 1st Shift" },
-    "locations.name": { value: "AMAZON ONT4" },
+    "location_alerts.shift": { value: " ONT4 - 1st Shift" },
+    "locations.name": { value: " ONT4" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ONT4+-+1st+Shift&f[locations.name]=AMAZON+ONT4&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ONT4+-+1st+Shift&f[locations.name]=+ONT4&limit=500",
           type: "measure_default"
         }
       ]
@@ -382,7 +382,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ONT4+-+1st+Shift&f[locations.name]=AMAZON+ONT4&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ONT4+-+1st+Shift&f[locations.name]=+ONT4&limit=500",
           type: "measure_default"
         }
       ]
@@ -402,15 +402,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON MIA6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON MIA6" },
+    "location_alerts.shift": { value: " MIA6 - 3rd Shift" },
+    "locations.name": { value: " MIA6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+MIA6+-+3rd+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+MIA6+-+3rd+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -421,7 +421,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+MIA6+-+3rd+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+MIA6+-+3rd+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -441,15 +441,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON MIA6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON MIA6" },
+    "location_alerts.shift": { value: " MIA6 - 2nd Shift" },
+    "locations.name": { value: " MIA6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+MIA6+-+2nd+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+MIA6+-+2nd+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -460,7 +460,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+MIA6+-+2nd+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+MIA6+-+2nd+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -480,15 +480,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON MIA6 - 1st Shift" },
-    "locations.name": { value: "AMAZON MIA6" },
+    "location_alerts.shift": { value: " MIA6 - 1st Shift" },
+    "locations.name": { value: " MIA6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+MIA6+-+1st+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+MIA6+-+1st+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -499,7 +499,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+MIA6+-+1st+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+MIA6+-+1st+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -519,15 +519,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB8 - 3rd Shift" },
-    "locations.name": { value: "AMAZON LGB8" },
+    "location_alerts.shift": { value: " LGB8 - 3rd Shift" },
+    "locations.name": { value: " LGB8" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB8+-+3rd+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB8+-+3rd+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -538,7 +538,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB8+-+3rd+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB8+-+3rd+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -558,15 +558,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB8 - 2nd Shift" },
-    "locations.name": { value: "AMAZON LGB8" },
+    "location_alerts.shift": { value: " LGB8 - 2nd Shift" },
+    "locations.name": { value: " LGB8" },
     "location_alerts.expected_punch_count": {
       value: 6,
       links: [
         {
           label: "Show All 6",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB8+-+2nd+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB8+-+2nd+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -577,7 +577,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB8+-+2nd+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB8+-+2nd+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -597,15 +597,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB8 - 1st Shift" },
-    "locations.name": { value: "AMAZON LGB8" },
+    "location_alerts.shift": { value: " LGB8 - 1st Shift" },
+    "locations.name": { value: " LGB8" },
     "location_alerts.expected_punch_count": {
       value: 6,
       links: [
         {
           label: "Show All 6",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB8+-+1st+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB8+-+1st+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -616,7 +616,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB8+-+1st+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB8+-+1st+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -636,15 +636,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON LGB6" },
+    "location_alerts.shift": { value: " LGB6 - 3rd Shift" },
+    "locations.name": { value: " LGB6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB6+-+3rd+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB6+-+3rd+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -655,7 +655,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB6+-+3rd+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB6+-+3rd+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -675,15 +675,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON LGB6" },
+    "location_alerts.shift": { value: " LGB6 - 2nd Shift" },
+    "locations.name": { value: " LGB6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB6+-+2nd+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB6+-+2nd+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -694,7 +694,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB6+-+2nd+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB6+-+2nd+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -714,15 +714,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB6 - 1st Shift" },
-    "locations.name": { value: "AMAZON LGB6" },
+    "location_alerts.shift": { value: " LGB6 - 1st Shift" },
+    "locations.name": { value: " LGB6" },
     "location_alerts.expected_punch_count": {
       value: 7,
       links: [
         {
           label: "Show All 7",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB6+-+1st+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB6+-+1st+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -733,7 +733,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB6+-+1st+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB6+-+1st+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -753,15 +753,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB3 - 3rd Shift" },
-    "locations.name": { value: "AMAZON LGB3" },
+    "location_alerts.shift": { value: " LGB3 - 3rd Shift" },
+    "locations.name": { value: " LGB3" },
     "location_alerts.expected_punch_count": {
       value: 17,
       links: [
         {
           label: "Show All 17",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB3+-+3rd+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB3+-+3rd+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -772,7 +772,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB3+-+3rd+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB3+-+3rd+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -792,15 +792,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB3 - 2nd Shift" },
-    "locations.name": { value: "AMAZON LGB3" },
+    "location_alerts.shift": { value: " LGB3 - 2nd Shift" },
+    "locations.name": { value: " LGB3" },
     "location_alerts.expected_punch_count": {
       value: 15,
       links: [
         {
           label: "Show All 15",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB3+-+2nd+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB3+-+2nd+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -811,7 +811,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB3+-+2nd+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB3+-+2nd+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -831,15 +831,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB3 - 1st Shift" },
-    "locations.name": { value: "AMAZON LGB3" },
+    "location_alerts.shift": { value: " LGB3 - 1st Shift" },
+    "locations.name": { value: " LGB3" },
     "location_alerts.expected_punch_count": {
       value: 20,
       links: [
         {
           label: "Show All 20",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB3+-+1st+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB3+-+1st+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -850,7 +850,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LGB3+-+1st+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LGB3+-+1st+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -870,15 +870,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LAX6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON LAX6" },
+    "location_alerts.shift": { value: " LAX6 - 3rd Shift" },
+    "locations.name": { value: " LAX6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LAX6+-+3rd+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LAX6+-+3rd+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -889,7 +889,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LAX6+-+3rd+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LAX6+-+3rd+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -909,15 +909,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LAX6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON LAX6" },
+    "location_alerts.shift": { value: " LAX6 - 2nd Shift" },
+    "locations.name": { value: " LAX6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LAX6+-+2nd+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LAX6+-+2nd+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -928,7 +928,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LAX6+-+2nd+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LAX6+-+2nd+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -948,15 +948,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LAX6 - 1st Shift" },
-    "locations.name": { value: "AMAZON LAX6" },
+    "location_alerts.shift": { value: " LAX6 - 1st Shift" },
+    "locations.name": { value: " LAX6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LAX6+-+1st+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LAX6+-+1st+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -967,7 +967,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+LAX6+-+1st+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+LAX6+-+1st+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -987,15 +987,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON FTW6" },
+    "location_alerts.shift": { value: " FTW6 - 3rd Shift" },
+    "locations.name": { value: " FTW6" },
     "location_alerts.expected_punch_count": {
       value: 18,
       links: [
         {
           label: "Show All 18",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+FTW6+-+3rd+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+FTW6+-+3rd+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1006,7 +1006,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+FTW6+-+3rd+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+FTW6+-+3rd+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1026,15 +1026,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON FTW6" },
+    "location_alerts.shift": { value: " FTW6 - 2nd Shift" },
+    "locations.name": { value: " FTW6" },
     "location_alerts.expected_punch_count": {
       value: 18,
       links: [
         {
           label: "Show All 18",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+FTW6+-+2nd+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+FTW6+-+2nd+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1045,7 +1045,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+FTW6+-+2nd+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+FTW6+-+2nd+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1065,15 +1065,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW6 - 1st Shift" },
-    "locations.name": { value: "AMAZON FTW6" },
+    "location_alerts.shift": { value: " FTW6 - 1st Shift" },
+    "locations.name": { value: " FTW6" },
     "location_alerts.expected_punch_count": {
       value: 19,
       links: [
         {
           label: "Show All 19",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+FTW6+-+1st+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+FTW6+-+1st+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1084,7 +1084,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+FTW6+-+1st+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+FTW6+-+1st+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1104,15 +1104,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW2 - 3rd Shift" },
-    "locations.name": { value: "AMAZON FTW2" },
+    "location_alerts.shift": { value: " FTW2 - 3rd Shift" },
+    "locations.name": { value: " FTW2" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+FTW2+-+3rd+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+FTW2+-+3rd+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -1123,7 +1123,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+FTW2+-+3rd+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+FTW2+-+3rd+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -1143,15 +1143,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW2 - 2nd Shift" },
-    "locations.name": { value: "AMAZON FTW2" },
+    "location_alerts.shift": { value: " FTW2 - 2nd Shift" },
+    "locations.name": { value: " FTW2" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+FTW2+-+2nd+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+FTW2+-+2nd+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -1162,7 +1162,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+FTW2+-+2nd+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+FTW2+-+2nd+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -1182,15 +1182,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW2 - 1st Shift" },
-    "locations.name": { value: "AMAZON FTW2" },
+    "location_alerts.shift": { value: " FTW2 - 1st Shift" },
+    "locations.name": { value: " FTW2" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+FTW2+-+1st+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+FTW2+-+1st+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -1201,7 +1201,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+FTW2+-+1st+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+FTW2+-+1st+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -1221,15 +1221,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON EWR6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON EWR6" },
+    "location_alerts.shift": { value: " EWR6 - 3rd Shift" },
+    "locations.name": { value: " EWR6" },
     "location_alerts.expected_punch_count": {
       value: 7,
       links: [
         {
           label: "Show All 7",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+EWR6+-+3rd+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+EWR6+-+3rd+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1240,7 +1240,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+EWR6+-+3rd+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+EWR6+-+3rd+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1260,15 +1260,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON EWR6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON EWR6" },
+    "location_alerts.shift": { value: " EWR6 - 2nd Shift" },
+    "locations.name": { value: " EWR6" },
     "location_alerts.expected_punch_count": {
       value: 9,
       links: [
         {
           label: "Show All 9",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+EWR6+-+2nd+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+EWR6+-+2nd+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1279,7 +1279,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+EWR6+-+2nd+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+EWR6+-+2nd+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1299,15 +1299,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON EWR6 - 1st Shift" },
-    "locations.name": { value: "AMAZON EWR6" },
+    "location_alerts.shift": { value: " EWR6 - 1st Shift" },
+    "locations.name": { value: " EWR6" },
     "location_alerts.expected_punch_count": {
       value: 10,
       links: [
         {
           label: "Show All 10",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+EWR6+-+1st+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+EWR6+-+1st+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1318,7 +1318,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+EWR6+-+1st+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+EWR6+-+1st+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1338,15 +1338,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW7 - 3rd Shift" },
-    "locations.name": { value: "AMAZON DFW7" },
+    "location_alerts.shift": { value: " DFW7 - 3rd Shift" },
+    "locations.name": { value: " DFW7" },
     "location_alerts.expected_punch_count": {
       value: 19,
       links: [
         {
           label: "Show All 19",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DFW7+-+3rd+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DFW7+-+3rd+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -1357,7 +1357,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DFW7+-+3rd+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DFW7+-+3rd+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -1377,15 +1377,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW7 - 2nd Shift" },
-    "locations.name": { value: "AMAZON DFW7" },
+    "location_alerts.shift": { value: " DFW7 - 2nd Shift" },
+    "locations.name": { value: " DFW7" },
     "location_alerts.expected_punch_count": {
       value: 20,
       links: [
         {
           label: "Show All 20",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DFW7+-+2nd+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DFW7+-+2nd+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -1396,7 +1396,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DFW7+-+2nd+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DFW7+-+2nd+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -1416,15 +1416,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW7 - 1st Shift" },
-    "locations.name": { value: "AMAZON DFW7" },
+    "location_alerts.shift": { value: " DFW7 - 1st Shift" },
+    "locations.name": { value: " DFW7" },
     "location_alerts.expected_punch_count": {
       value: 19,
       links: [
         {
           label: "Show All 19",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DFW7+-+1st+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DFW7+-+1st+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -1435,7 +1435,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DFW7+-+1st+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DFW7+-+1st+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -1455,15 +1455,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON DFW6" },
+    "location_alerts.shift": { value: " DFW6 - 3rd Shift" },
+    "locations.name": { value: " DFW6" },
     "location_alerts.expected_punch_count": {
       value: 10,
       links: [
         {
           label: "Show All 10",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DFW6+-+3rd+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DFW6+-+3rd+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1474,7 +1474,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DFW6+-+3rd+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DFW6+-+3rd+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1494,15 +1494,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON DFW6" },
+    "location_alerts.shift": { value: " DFW6 - 2nd Shift" },
+    "locations.name": { value: " DFW6" },
     "location_alerts.expected_punch_count": {
       value: 11,
       links: [
         {
           label: "Show All 11",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DFW6+-+2nd+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DFW6+-+2nd+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1513,7 +1513,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DFW6+-+2nd+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DFW6+-+2nd+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1533,15 +1533,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW6 - 1st Shift" },
-    "locations.name": { value: "AMAZON DFW6" },
+    "location_alerts.shift": { value: " DFW6 - 1st Shift" },
+    "locations.name": { value: " DFW6" },
     "location_alerts.expected_punch_count": {
       value: 11,
       links: [
         {
           label: "Show All 11",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DFW6+-+1st+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DFW6+-+1st+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1552,7 +1552,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DFW6+-+1st+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DFW6+-+1st+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1572,15 +1572,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 3rd Shift" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DEN6+-+3rd+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DEN6+-+3rd+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1591,7 +1591,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DEN6+-+3rd+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DEN6+-+3rd+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1611,15 +1611,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 2nd Shift" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DEN6+-+2nd+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DEN6+-+2nd+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1630,7 +1630,7 @@ const data = [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DEN6+-+2nd+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DEN6+-+2nd+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1650,15 +1650,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 1st Shift" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 1st Shift" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DEN6+-+1st+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DEN6+-+1st+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1669,7 +1669,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DEN6+-+1st+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DEN6+-+1st+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1689,15 +1689,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 3rd Shift" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DAL6+-+3rd+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DAL6+-+3rd+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1708,7 +1708,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DAL6+-+3rd+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DAL6+-+3rd+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1728,15 +1728,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 2nd Shift" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DAL6+-+2nd+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DAL6+-+2nd+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1747,7 +1747,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DAL6+-+2nd+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DAL6+-+2nd+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1767,15 +1767,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 1st Shift" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 1st Shift" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DAL6+-+1st+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DAL6+-+1st+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1786,7 +1786,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+DAL6+-+1st+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+DAL6+-+1st+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1806,15 +1806,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BWI6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON BWI6" },
+    "location_alerts.shift": { value: " BWI6 - 3rd Shift" },
+    "locations.name": { value: " BWI6" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BWI6+-+3rd+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BWI6+-+3rd+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1825,7 +1825,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BWI6+-+3rd+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BWI6+-+3rd+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1845,15 +1845,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BWI6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON BWI6" },
+    "location_alerts.shift": { value: " BWI6 - 2nd Shift" },
+    "locations.name": { value: " BWI6" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BWI6+-+2nd+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BWI6+-+2nd+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1864,7 +1864,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BWI6+-+2nd+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BWI6+-+2nd+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1884,15 +1884,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BWI6 - 1st Shift" },
-    "locations.name": { value: "AMAZON BWI6" },
+    "location_alerts.shift": { value: " BWI6 - 1st Shift" },
+    "locations.name": { value: " BWI6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BWI6+-+1st+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BWI6+-+1st+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1903,7 +1903,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BWI6+-+1st+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BWI6+-+1st+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1923,15 +1923,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BOS6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON BOS6" },
+    "location_alerts.shift": { value: " BOS6 - 3rd Shift" },
+    "locations.name": { value: " BOS6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BOS6+-+3rd+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BOS6+-+3rd+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1942,7 +1942,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BOS6+-+3rd+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BOS6+-+3rd+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1962,15 +1962,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BOS6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON BOS6" },
+    "location_alerts.shift": { value: " BOS6 - 2nd Shift" },
+    "locations.name": { value: " BOS6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BOS6+-+2nd+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BOS6+-+2nd+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -1981,7 +1981,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BOS6+-+2nd+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BOS6+-+2nd+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2001,15 +2001,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BOS6 - 1st Shift" },
-    "locations.name": { value: "AMAZON BOS6" },
+    "location_alerts.shift": { value: " BOS6 - 1st Shift" },
+    "locations.name": { value: " BOS6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BOS6+-+1st+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BOS6+-+1st+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2020,7 +2020,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BOS6+-+1st+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BOS6+-+1st+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2040,15 +2040,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON BFI6" },
+    "location_alerts.shift": { value: " BFI6 - 3rd Shift" },
+    "locations.name": { value: " BFI6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BFI6+-+3rd+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BFI6+-+3rd+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2059,7 +2059,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BFI6+-+3rd+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BFI6+-+3rd+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2079,15 +2079,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON BFI6" },
+    "location_alerts.shift": { value: " BFI6 - 2nd Shift" },
+    "locations.name": { value: " BFI6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BFI6+-+2nd+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BFI6+-+2nd+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2098,7 +2098,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BFI6+-+2nd+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BFI6+-+2nd+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2118,15 +2118,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI6 - 1st Shift" },
-    "locations.name": { value: "AMAZON BFI6" },
+    "location_alerts.shift": { value: " BFI6 - 1st Shift" },
+    "locations.name": { value: " BFI6" },
     "location_alerts.expected_punch_count": {
       value: 6,
       links: [
         {
           label: "Show All 6",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BFI6+-+1st+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BFI6+-+1st+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2137,7 +2137,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BFI6+-+1st+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BFI6+-+1st+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2157,15 +2157,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI3 - 3rd Shift" },
-    "locations.name": { value: "AMAZON BFI3" },
+    "location_alerts.shift": { value: " BFI3 - 3rd Shift" },
+    "locations.name": { value: " BFI3" },
     "location_alerts.expected_punch_count": {
       value: 7,
       links: [
         {
           label: "Show All 7",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BFI3+-+3rd+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BFI3+-+3rd+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -2176,7 +2176,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BFI3+-+3rd+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BFI3+-+3rd+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -2196,15 +2196,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI3 - 2nd Shift" },
-    "locations.name": { value: "AMAZON BFI3" },
+    "location_alerts.shift": { value: " BFI3 - 2nd Shift" },
+    "locations.name": { value: " BFI3" },
     "location_alerts.expected_punch_count": {
       value: 10,
       links: [
         {
           label: "Show All 10",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BFI3+-+2nd+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BFI3+-+2nd+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -2215,7 +2215,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BFI3+-+2nd+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BFI3+-+2nd+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -2235,15 +2235,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI3 - 1st Shift" },
-    "locations.name": { value: "AMAZON BFI3" },
+    "location_alerts.shift": { value: " BFI3 - 1st Shift" },
+    "locations.name": { value: " BFI3" },
     "location_alerts.expected_punch_count": {
       value: 10,
       links: [
         {
           label: "Show All 10",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BFI3+-+1st+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BFI3+-+1st+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -2254,7 +2254,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+BFI3+-+1st+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+BFI3+-+1st+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -2274,15 +2274,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ATL9 - 3rd Shift" },
-    "locations.name": { value: "AMAZON ATL9" },
+    "location_alerts.shift": { value: " ATL9 - 3rd Shift" },
+    "locations.name": { value: " ATL9" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ATL9+-+3rd+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ATL9+-+3rd+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
@@ -2293,7 +2293,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ATL9+-+3rd+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ATL9+-+3rd+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
@@ -2313,15 +2313,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ATL9 - 2nd Shift" },
-    "locations.name": { value: "AMAZON ATL9" },
+    "location_alerts.shift": { value: " ATL9 - 2nd Shift" },
+    "locations.name": { value: " ATL9" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ATL9+-+2nd+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ATL9+-+2nd+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
@@ -2332,7 +2332,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ATL9+-+2nd+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ATL9+-+2nd+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
@@ -2352,15 +2352,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ATL9 - 1st Shift" },
-    "locations.name": { value: "AMAZON ATL9" },
+    "location_alerts.shift": { value: " ATL9 - 1st Shift" },
+    "locations.name": { value: " ATL9" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ATL9+-+1st+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ATL9+-+1st+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
@@ -2371,7 +2371,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=AMAZON+ATL9+-+1st+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-07&f[location_alerts.shift]=+ATL9+-+1st+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
@@ -2391,15 +2391,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON SJC9 - 3rd Shift" },
-    "locations.name": { value: "AMAZON SJC9" },
+    "location_alerts.shift": { value: " SJC9 - 3rd Shift" },
+    "locations.name": { value: " SJC9" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+SJC9+-+3rd+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+SJC9+-+3rd+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -2410,7 +2410,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+SJC9+-+3rd+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+SJC9+-+3rd+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -2430,15 +2430,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON SJC9 - 2nd Shift" },
-    "locations.name": { value: "AMAZON SJC9" },
+    "location_alerts.shift": { value: " SJC9 - 2nd Shift" },
+    "locations.name": { value: " SJC9" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+SJC9+-+2nd+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+SJC9+-+2nd+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -2449,7 +2449,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+SJC9+-+2nd+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+SJC9+-+2nd+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -2469,15 +2469,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON SJC9 - 1st Shift" },
-    "locations.name": { value: "AMAZON SJC9" },
+    "location_alerts.shift": { value: " SJC9 - 1st Shift" },
+    "locations.name": { value: " SJC9" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+SJC9+-+1st+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+SJC9+-+1st+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -2488,7 +2488,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+SJC9+-+1st+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+SJC9+-+1st+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -2508,15 +2508,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ORD6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON ORD6" },
+    "location_alerts.shift": { value: " ORD6 - 3rd Shift" },
+    "locations.name": { value: " ORD6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ORD6+-+3rd+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ORD6+-+3rd+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2527,7 +2527,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ORD6+-+3rd+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ORD6+-+3rd+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2547,15 +2547,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ORD6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON ORD6" },
+    "location_alerts.shift": { value: " ORD6 - 2nd Shift" },
+    "locations.name": { value: " ORD6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ORD6+-+2nd+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ORD6+-+2nd+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2566,7 +2566,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ORD6+-+2nd+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ORD6+-+2nd+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2586,15 +2586,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ORD6 - 1st Shift" },
-    "locations.name": { value: "AMAZON ORD6" },
+    "location_alerts.shift": { value: " ORD6 - 1st Shift" },
+    "locations.name": { value: " ORD6" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ORD6+-+1st+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ORD6+-+1st+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2605,7 +2605,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ORD6+-+1st+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ORD6+-+1st+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2625,15 +2625,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ONT8 - 3rd Shift" },
-    "locations.name": { value: "AMAZON ONT8" },
+    "location_alerts.shift": { value: " ONT8 - 3rd Shift" },
+    "locations.name": { value: " ONT8" },
     "location_alerts.expected_punch_count": {
       value: 6,
       links: [
         {
           label: "Show All 6",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ONT8+-+3rd+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ONT8+-+3rd+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -2644,7 +2644,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ONT8+-+3rd+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ONT8+-+3rd+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -2664,15 +2664,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ONT8 - 2nd Shift" },
-    "locations.name": { value: "AMAZON ONT8" },
+    "location_alerts.shift": { value: " ONT8 - 2nd Shift" },
+    "locations.name": { value: " ONT8" },
     "location_alerts.expected_punch_count": {
       value: 6,
       links: [
         {
           label: "Show All 6",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ONT8+-+2nd+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ONT8+-+2nd+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -2683,7 +2683,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ONT8+-+2nd+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ONT8+-+2nd+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -2703,15 +2703,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ONT8 - 1st Shift" },
-    "locations.name": { value: "AMAZON ONT8" },
+    "location_alerts.shift": { value: " ONT8 - 1st Shift" },
+    "locations.name": { value: " ONT8" },
     "location_alerts.expected_punch_count": {
       value: 8,
       links: [
         {
           label: "Show All 8",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ONT8+-+1st+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ONT8+-+1st+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -2722,7 +2722,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ONT8+-+1st+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ONT8+-+1st+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -2742,15 +2742,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ONT4 - 1st Shift" },
-    "locations.name": { value: "AMAZON ONT4" },
+    "location_alerts.shift": { value: " ONT4 - 1st Shift" },
+    "locations.name": { value: " ONT4" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ONT4+-+1st+Shift&f[locations.name]=AMAZON+ONT4&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ONT4+-+1st+Shift&f[locations.name]=+ONT4&limit=500",
           type: "measure_default"
         }
       ]
@@ -2761,7 +2761,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ONT4+-+1st+Shift&f[locations.name]=AMAZON+ONT4&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ONT4+-+1st+Shift&f[locations.name]=+ONT4&limit=500",
           type: "measure_default"
         }
       ]
@@ -2781,15 +2781,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON MIA6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON MIA6" },
+    "location_alerts.shift": { value: " MIA6 - 3rd Shift" },
+    "locations.name": { value: " MIA6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+MIA6+-+3rd+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+MIA6+-+3rd+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2800,7 +2800,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+MIA6+-+3rd+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+MIA6+-+3rd+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2820,15 +2820,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON MIA6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON MIA6" },
+    "location_alerts.shift": { value: " MIA6 - 2nd Shift" },
+    "locations.name": { value: " MIA6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+MIA6+-+2nd+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+MIA6+-+2nd+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2839,7 +2839,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+MIA6+-+2nd+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+MIA6+-+2nd+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2859,15 +2859,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON MIA6 - 1st Shift" },
-    "locations.name": { value: "AMAZON MIA6" },
+    "location_alerts.shift": { value: " MIA6 - 1st Shift" },
+    "locations.name": { value: " MIA6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+MIA6+-+1st+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+MIA6+-+1st+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2878,7 +2878,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+MIA6+-+1st+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+MIA6+-+1st+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -2898,15 +2898,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB8 - 3rd Shift" },
-    "locations.name": { value: "AMAZON LGB8" },
+    "location_alerts.shift": { value: " LGB8 - 3rd Shift" },
+    "locations.name": { value: " LGB8" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB8+-+3rd+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB8+-+3rd+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -2917,7 +2917,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB8+-+3rd+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB8+-+3rd+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -2937,15 +2937,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB8 - 2nd Shift" },
-    "locations.name": { value: "AMAZON LGB8" },
+    "location_alerts.shift": { value: " LGB8 - 2nd Shift" },
+    "locations.name": { value: " LGB8" },
     "location_alerts.expected_punch_count": {
       value: 6,
       links: [
         {
           label: "Show All 6",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB8+-+2nd+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB8+-+2nd+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -2956,7 +2956,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB8+-+2nd+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB8+-+2nd+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -2976,15 +2976,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB8 - 1st Shift" },
-    "locations.name": { value: "AMAZON LGB8" },
+    "location_alerts.shift": { value: " LGB8 - 1st Shift" },
+    "locations.name": { value: " LGB8" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB8+-+1st+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB8+-+1st+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -2995,7 +2995,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB8+-+1st+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB8+-+1st+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -3015,15 +3015,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON LGB6" },
+    "location_alerts.shift": { value: " LGB6 - 3rd Shift" },
+    "locations.name": { value: " LGB6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB6+-+3rd+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB6+-+3rd+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3034,7 +3034,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB6+-+3rd+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB6+-+3rd+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3054,15 +3054,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON LGB6" },
+    "location_alerts.shift": { value: " LGB6 - 2nd Shift" },
+    "locations.name": { value: " LGB6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB6+-+2nd+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB6+-+2nd+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3073,7 +3073,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB6+-+2nd+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB6+-+2nd+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3093,15 +3093,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB6 - 1st Shift" },
-    "locations.name": { value: "AMAZON LGB6" },
+    "location_alerts.shift": { value: " LGB6 - 1st Shift" },
+    "locations.name": { value: " LGB6" },
     "location_alerts.expected_punch_count": {
       value: 6,
       links: [
         {
           label: "Show All 6",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB6+-+1st+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB6+-+1st+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3112,7 +3112,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB6+-+1st+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB6+-+1st+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3132,15 +3132,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB3 - 3rd Shift" },
-    "locations.name": { value: "AMAZON LGB3" },
+    "location_alerts.shift": { value: " LGB3 - 3rd Shift" },
+    "locations.name": { value: " LGB3" },
     "location_alerts.expected_punch_count": {
       value: 18,
       links: [
         {
           label: "Show All 18",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB3+-+3rd+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB3+-+3rd+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -3151,7 +3151,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB3+-+3rd+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB3+-+3rd+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -3171,15 +3171,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB3 - 2nd Shift" },
-    "locations.name": { value: "AMAZON LGB3" },
+    "location_alerts.shift": { value: " LGB3 - 2nd Shift" },
+    "locations.name": { value: " LGB3" },
     "location_alerts.expected_punch_count": {
       value: 16,
       links: [
         {
           label: "Show All 16",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB3+-+2nd+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB3+-+2nd+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -3190,7 +3190,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB3+-+2nd+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB3+-+2nd+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -3210,15 +3210,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB3 - 1st Shift" },
-    "locations.name": { value: "AMAZON LGB3" },
+    "location_alerts.shift": { value: " LGB3 - 1st Shift" },
+    "locations.name": { value: " LGB3" },
     "location_alerts.expected_punch_count": {
       value: 19,
       links: [
         {
           label: "Show All 19",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB3+-+1st+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB3+-+1st+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -3229,7 +3229,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LGB3+-+1st+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LGB3+-+1st+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -3249,15 +3249,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LAX6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON LAX6" },
+    "location_alerts.shift": { value: " LAX6 - 3rd Shift" },
+    "locations.name": { value: " LAX6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LAX6+-+3rd+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LAX6+-+3rd+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3268,7 +3268,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LAX6+-+3rd+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LAX6+-+3rd+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3288,15 +3288,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LAX6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON LAX6" },
+    "location_alerts.shift": { value: " LAX6 - 2nd Shift" },
+    "locations.name": { value: " LAX6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LAX6+-+2nd+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LAX6+-+2nd+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3307,7 +3307,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LAX6+-+2nd+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LAX6+-+2nd+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3327,15 +3327,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LAX6 - 1st Shift" },
-    "locations.name": { value: "AMAZON LAX6" },
+    "location_alerts.shift": { value: " LAX6 - 1st Shift" },
+    "locations.name": { value: " LAX6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LAX6+-+1st+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LAX6+-+1st+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3346,7 +3346,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+LAX6+-+1st+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+LAX6+-+1st+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3366,15 +3366,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON FTW6" },
+    "location_alerts.shift": { value: " FTW6 - 3rd Shift" },
+    "locations.name": { value: " FTW6" },
     "location_alerts.expected_punch_count": {
       value: 21,
       links: [
         {
           label: "Show All 21",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+FTW6+-+3rd+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+FTW6+-+3rd+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3385,7 +3385,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+FTW6+-+3rd+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+FTW6+-+3rd+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3405,15 +3405,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON FTW6" },
+    "location_alerts.shift": { value: " FTW6 - 2nd Shift" },
+    "locations.name": { value: " FTW6" },
     "location_alerts.expected_punch_count": {
       value: 16,
       links: [
         {
           label: "Show All 16",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+FTW6+-+2nd+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+FTW6+-+2nd+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3424,7 +3424,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+FTW6+-+2nd+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+FTW6+-+2nd+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3444,15 +3444,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW6 - 1st Shift" },
-    "locations.name": { value: "AMAZON FTW6" },
+    "location_alerts.shift": { value: " FTW6 - 1st Shift" },
+    "locations.name": { value: " FTW6" },
     "location_alerts.expected_punch_count": {
       value: 21,
       links: [
         {
           label: "Show All 21",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+FTW6+-+1st+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+FTW6+-+1st+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3463,7 +3463,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+FTW6+-+1st+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+FTW6+-+1st+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3483,15 +3483,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW2 - 3rd Shift" },
-    "locations.name": { value: "AMAZON FTW2" },
+    "location_alerts.shift": { value: " FTW2 - 3rd Shift" },
+    "locations.name": { value: " FTW2" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+FTW2+-+3rd+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+FTW2+-+3rd+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -3502,7 +3502,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+FTW2+-+3rd+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+FTW2+-+3rd+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -3522,15 +3522,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW2 - 2nd Shift" },
-    "locations.name": { value: "AMAZON FTW2" },
+    "location_alerts.shift": { value: " FTW2 - 2nd Shift" },
+    "locations.name": { value: " FTW2" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+FTW2+-+2nd+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+FTW2+-+2nd+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -3541,7 +3541,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+FTW2+-+2nd+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+FTW2+-+2nd+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -3561,15 +3561,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW2 - 1st Shift" },
-    "locations.name": { value: "AMAZON FTW2" },
+    "location_alerts.shift": { value: " FTW2 - 1st Shift" },
+    "locations.name": { value: " FTW2" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+FTW2+-+1st+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+FTW2+-+1st+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -3580,7 +3580,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+FTW2+-+1st+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+FTW2+-+1st+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -3600,15 +3600,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON EWR6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON EWR6" },
+    "location_alerts.shift": { value: " EWR6 - 3rd Shift" },
+    "locations.name": { value: " EWR6" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+EWR6+-+3rd+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+EWR6+-+3rd+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3619,7 +3619,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+EWR6+-+3rd+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+EWR6+-+3rd+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3639,15 +3639,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON EWR6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON EWR6" },
+    "location_alerts.shift": { value: " EWR6 - 2nd Shift" },
+    "locations.name": { value: " EWR6" },
     "location_alerts.expected_punch_count": {
       value: 9,
       links: [
         {
           label: "Show All 9",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+EWR6+-+2nd+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+EWR6+-+2nd+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3658,7 +3658,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+EWR6+-+2nd+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+EWR6+-+2nd+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3678,15 +3678,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON EWR6 - 1st Shift" },
-    "locations.name": { value: "AMAZON EWR6" },
+    "location_alerts.shift": { value: " EWR6 - 1st Shift" },
+    "locations.name": { value: " EWR6" },
     "location_alerts.expected_punch_count": {
       value: 11,
       links: [
         {
           label: "Show All 11",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+EWR6+-+1st+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+EWR6+-+1st+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3697,7 +3697,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+EWR6+-+1st+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+EWR6+-+1st+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3717,15 +3717,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW7 - 3rd Shift" },
-    "locations.name": { value: "AMAZON DFW7" },
+    "location_alerts.shift": { value: " DFW7 - 3rd Shift" },
+    "locations.name": { value: " DFW7" },
     "location_alerts.expected_punch_count": {
       value: 18,
       links: [
         {
           label: "Show All 18",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DFW7+-+3rd+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DFW7+-+3rd+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -3736,7 +3736,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DFW7+-+3rd+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DFW7+-+3rd+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -3756,15 +3756,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW7 - 2nd Shift" },
-    "locations.name": { value: "AMAZON DFW7" },
+    "location_alerts.shift": { value: " DFW7 - 2nd Shift" },
+    "locations.name": { value: " DFW7" },
     "location_alerts.expected_punch_count": {
       value: 22,
       links: [
         {
           label: "Show All 22",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DFW7+-+2nd+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DFW7+-+2nd+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -3775,7 +3775,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DFW7+-+2nd+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DFW7+-+2nd+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -3795,15 +3795,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW7 - 1st Shift" },
-    "locations.name": { value: "AMAZON DFW7" },
+    "location_alerts.shift": { value: " DFW7 - 1st Shift" },
+    "locations.name": { value: " DFW7" },
     "location_alerts.expected_punch_count": {
       value: 21,
       links: [
         {
           label: "Show All 21",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DFW7+-+1st+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DFW7+-+1st+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -3814,7 +3814,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DFW7+-+1st+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DFW7+-+1st+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -3834,15 +3834,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON DFW6" },
+    "location_alerts.shift": { value: " DFW6 - 3rd Shift" },
+    "locations.name": { value: " DFW6" },
     "location_alerts.expected_punch_count": {
       value: 11,
       links: [
         {
           label: "Show All 11",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DFW6+-+3rd+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DFW6+-+3rd+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3853,7 +3853,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DFW6+-+3rd+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DFW6+-+3rd+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3873,15 +3873,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON DFW6" },
+    "location_alerts.shift": { value: " DFW6 - 2nd Shift" },
+    "locations.name": { value: " DFW6" },
     "location_alerts.expected_punch_count": {
       value: 10,
       links: [
         {
           label: "Show All 10",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DFW6+-+2nd+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DFW6+-+2nd+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3892,7 +3892,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DFW6+-+2nd+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DFW6+-+2nd+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3912,15 +3912,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW6 - 1st Shift" },
-    "locations.name": { value: "AMAZON DFW6" },
+    "location_alerts.shift": { value: " DFW6 - 1st Shift" },
+    "locations.name": { value: " DFW6" },
     "location_alerts.expected_punch_count": {
       value: 10,
       links: [
         {
           label: "Show All 10",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DFW6+-+1st+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DFW6+-+1st+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3931,7 +3931,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DFW6+-+1st+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DFW6+-+1st+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3951,15 +3951,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 3rd Shift" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DEN6+-+3rd+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DEN6+-+3rd+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3970,7 +3970,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DEN6+-+3rd+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DEN6+-+3rd+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -3990,15 +3990,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 2nd Shift" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DEN6+-+2nd+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DEN6+-+2nd+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4009,7 +4009,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DEN6+-+2nd+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DEN6+-+2nd+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4029,15 +4029,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 1st Shift" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 1st Shift" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DEN6+-+1st+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DEN6+-+1st+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4048,7 +4048,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DEN6+-+1st+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DEN6+-+1st+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4068,15 +4068,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 3rd Shift" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DAL6+-+3rd+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DAL6+-+3rd+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4087,7 +4087,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DAL6+-+3rd+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DAL6+-+3rd+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4107,15 +4107,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 2nd Shift" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DAL6+-+2nd+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DAL6+-+2nd+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4126,7 +4126,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DAL6+-+2nd+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DAL6+-+2nd+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4146,15 +4146,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 1st Shift" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 1st Shift" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DAL6+-+1st+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DAL6+-+1st+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4165,7 +4165,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+DAL6+-+1st+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+DAL6+-+1st+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4185,15 +4185,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BWI6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON BWI6" },
+    "location_alerts.shift": { value: " BWI6 - 3rd Shift" },
+    "locations.name": { value: " BWI6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BWI6+-+3rd+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BWI6+-+3rd+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4204,7 +4204,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BWI6+-+3rd+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BWI6+-+3rd+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4224,15 +4224,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BWI6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON BWI6" },
+    "location_alerts.shift": { value: " BWI6 - 2nd Shift" },
+    "locations.name": { value: " BWI6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BWI6+-+2nd+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BWI6+-+2nd+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4243,7 +4243,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BWI6+-+2nd+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BWI6+-+2nd+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4263,15 +4263,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BWI6 - 1st Shift" },
-    "locations.name": { value: "AMAZON BWI6" },
+    "location_alerts.shift": { value: " BWI6 - 1st Shift" },
+    "locations.name": { value: " BWI6" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BWI6+-+1st+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BWI6+-+1st+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4282,7 +4282,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BWI6+-+1st+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BWI6+-+1st+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4302,15 +4302,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BOS6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON BOS6" },
+    "location_alerts.shift": { value: " BOS6 - 3rd Shift" },
+    "locations.name": { value: " BOS6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BOS6+-+3rd+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BOS6+-+3rd+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4321,7 +4321,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BOS6+-+3rd+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BOS6+-+3rd+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4341,15 +4341,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BOS6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON BOS6" },
+    "location_alerts.shift": { value: " BOS6 - 2nd Shift" },
+    "locations.name": { value: " BOS6" },
     "location_alerts.expected_punch_count": {
       value: 1,
       links: [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BOS6+-+2nd+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BOS6+-+2nd+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4360,7 +4360,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BOS6+-+2nd+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BOS6+-+2nd+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4380,15 +4380,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BOS6 - 1st Shift" },
-    "locations.name": { value: "AMAZON BOS6" },
+    "location_alerts.shift": { value: " BOS6 - 1st Shift" },
+    "locations.name": { value: " BOS6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BOS6+-+1st+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BOS6+-+1st+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4399,7 +4399,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BOS6+-+1st+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BOS6+-+1st+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4419,15 +4419,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI6 - 3rd Shift" },
-    "locations.name": { value: "AMAZON BFI6" },
+    "location_alerts.shift": { value: " BFI6 - 3rd Shift" },
+    "locations.name": { value: " BFI6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BFI6+-+3rd+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BFI6+-+3rd+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4438,7 +4438,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BFI6+-+3rd+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BFI6+-+3rd+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4458,15 +4458,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI6 - 2nd Shift" },
-    "locations.name": { value: "AMAZON BFI6" },
+    "location_alerts.shift": { value: " BFI6 - 2nd Shift" },
+    "locations.name": { value: " BFI6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BFI6+-+2nd+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BFI6+-+2nd+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4477,7 +4477,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BFI6+-+2nd+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BFI6+-+2nd+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4497,15 +4497,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI6 - 1st Shift" },
-    "locations.name": { value: "AMAZON BFI6" },
+    "location_alerts.shift": { value: " BFI6 - 1st Shift" },
+    "locations.name": { value: " BFI6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BFI6+-+1st+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BFI6+-+1st+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4516,7 +4516,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BFI6+-+1st+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BFI6+-+1st+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4536,15 +4536,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI3 - 3rd Shift" },
-    "locations.name": { value: "AMAZON BFI3" },
+    "location_alerts.shift": { value: " BFI3 - 3rd Shift" },
+    "locations.name": { value: " BFI3" },
     "location_alerts.expected_punch_count": {
       value: 7,
       links: [
         {
           label: "Show All 7",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BFI3+-+3rd+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BFI3+-+3rd+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -4555,7 +4555,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BFI3+-+3rd+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BFI3+-+3rd+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -4575,15 +4575,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI3 - 2nd Shift" },
-    "locations.name": { value: "AMAZON BFI3" },
+    "location_alerts.shift": { value: " BFI3 - 2nd Shift" },
+    "locations.name": { value: " BFI3" },
     "location_alerts.expected_punch_count": {
       value: 12,
       links: [
         {
           label: "Show All 12",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BFI3+-+2nd+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BFI3+-+2nd+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -4594,7 +4594,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BFI3+-+2nd+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BFI3+-+2nd+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -4614,15 +4614,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI3 - 1st Shift" },
-    "locations.name": { value: "AMAZON BFI3" },
+    "location_alerts.shift": { value: " BFI3 - 1st Shift" },
+    "locations.name": { value: " BFI3" },
     "location_alerts.expected_punch_count": {
       value: 10,
       links: [
         {
           label: "Show All 10",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BFI3+-+1st+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BFI3+-+1st+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -4633,7 +4633,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+BFI3+-+1st+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+BFI3+-+1st+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -4653,15 +4653,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ATL9 - 3rd Shift" },
-    "locations.name": { value: "AMAZON ATL9" },
+    "location_alerts.shift": { value: " ATL9 - 3rd Shift" },
+    "locations.name": { value: " ATL9" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ATL9+-+3rd+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ATL9+-+3rd+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
@@ -4672,7 +4672,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ATL9+-+3rd+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ATL9+-+3rd+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
@@ -4692,15 +4692,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ATL9 - 2nd Shift" },
-    "locations.name": { value: "AMAZON ATL9" },
+    "location_alerts.shift": { value: " ATL9 - 2nd Shift" },
+    "locations.name": { value: " ATL9" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ATL9+-+2nd+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ATL9+-+2nd+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
@@ -4711,7 +4711,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ATL9+-+2nd+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ATL9+-+2nd+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
@@ -4731,15 +4731,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ATL9 - 1st Shift" },
-    "locations.name": { value: "AMAZON ATL9" },
+    "location_alerts.shift": { value: " ATL9 - 1st Shift" },
+    "locations.name": { value: " ATL9" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ATL9+-+1st+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ATL9+-+1st+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
@@ -4750,7 +4750,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=AMAZON+ATL9+-+1st+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-08&f[location_alerts.shift]=+ATL9+-+1st+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
@@ -4770,15 +4770,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON SJC9 - 1st Shift" },
-    "locations.name": { value: "AMAZON SJC9" },
+    "location_alerts.shift": { value: " SJC9 - 1st Shift" },
+    "locations.name": { value: " SJC9" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+SJC9+-+1st+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+SJC9+-+1st+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -4789,7 +4789,7 @@ const data = [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+SJC9+-+1st+Shift&f[locations.name]=AMAZON+SJC9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+SJC9+-+1st+Shift&f[locations.name]=+SJC9&limit=500",
           type: "measure_default"
         }
       ]
@@ -4809,15 +4809,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ORD6 - 1st Shift" },
-    "locations.name": { value: "AMAZON ORD6" },
+    "location_alerts.shift": { value: " ORD6 - 1st Shift" },
+    "locations.name": { value: " ORD6" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+ORD6+-+1st+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+ORD6+-+1st+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4828,7 +4828,7 @@ const data = [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+ORD6+-+1st+Shift&f[locations.name]=AMAZON+ORD6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+ORD6+-+1st+Shift&f[locations.name]=+ORD6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4848,15 +4848,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ONT8 - 1st Shift" },
-    "locations.name": { value: "AMAZON ONT8" },
+    "location_alerts.shift": { value: " ONT8 - 1st Shift" },
+    "locations.name": { value: " ONT8" },
     "location_alerts.expected_punch_count": {
       value: 6,
       links: [
         {
           label: "Show All 6",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+ONT8+-+1st+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+ONT8+-+1st+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -4867,7 +4867,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+ONT8+-+1st+Shift&f[locations.name]=AMAZON+ONT8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+ONT8+-+1st+Shift&f[locations.name]=+ONT8&limit=500",
           type: "measure_default"
         }
       ]
@@ -4887,15 +4887,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON MIA6 - 1st Shift" },
-    "locations.name": { value: "AMAZON MIA6" },
+    "location_alerts.shift": { value: " MIA6 - 1st Shift" },
+    "locations.name": { value: " MIA6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+MIA6+-+1st+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+MIA6+-+1st+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4906,7 +4906,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+MIA6+-+1st+Shift&f[locations.name]=AMAZON+MIA6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+MIA6+-+1st+Shift&f[locations.name]=+MIA6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4926,15 +4926,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB8 - 1st Shift" },
-    "locations.name": { value: "AMAZON LGB8" },
+    "location_alerts.shift": { value: " LGB8 - 1st Shift" },
+    "locations.name": { value: " LGB8" },
     "location_alerts.expected_punch_count": {
       value: 5,
       links: [
         {
           label: "Show All 5",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+LGB8+-+1st+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+LGB8+-+1st+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -4945,7 +4945,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+LGB8+-+1st+Shift&f[locations.name]=AMAZON+LGB8&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+LGB8+-+1st+Shift&f[locations.name]=+LGB8&limit=500",
           type: "measure_default"
         }
       ]
@@ -4965,15 +4965,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB6 - 1st Shift" },
-    "locations.name": { value: "AMAZON LGB6" },
+    "location_alerts.shift": { value: " LGB6 - 1st Shift" },
+    "locations.name": { value: " LGB6" },
     "location_alerts.expected_punch_count": {
       value: 6,
       links: [
         {
           label: "Show All 6",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+LGB6+-+1st+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+LGB6+-+1st+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -4984,7 +4984,7 @@ const data = [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+LGB6+-+1st+Shift&f[locations.name]=AMAZON+LGB6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+LGB6+-+1st+Shift&f[locations.name]=+LGB6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5004,15 +5004,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LGB3 - 1st Shift" },
-    "locations.name": { value: "AMAZON LGB3" },
+    "location_alerts.shift": { value: " LGB3 - 1st Shift" },
+    "locations.name": { value: " LGB3" },
     "location_alerts.expected_punch_count": {
       value: 17,
       links: [
         {
           label: "Show All 17",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+LGB3+-+1st+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+LGB3+-+1st+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -5023,7 +5023,7 @@ const data = [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+LGB3+-+1st+Shift&f[locations.name]=AMAZON+LGB3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+LGB3+-+1st+Shift&f[locations.name]=+LGB3&limit=500",
           type: "measure_default"
         }
       ]
@@ -5043,15 +5043,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON LAX6 - 1st Shift" },
-    "locations.name": { value: "AMAZON LAX6" },
+    "location_alerts.shift": { value: " LAX6 - 1st Shift" },
+    "locations.name": { value: " LAX6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+LAX6+-+1st+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+LAX6+-+1st+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5062,7 +5062,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+LAX6+-+1st+Shift&f[locations.name]=AMAZON+LAX6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+LAX6+-+1st+Shift&f[locations.name]=+LAX6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5082,15 +5082,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW6 - 1st Shift" },
-    "locations.name": { value: "AMAZON FTW6" },
+    "location_alerts.shift": { value: " FTW6 - 1st Shift" },
+    "locations.name": { value: " FTW6" },
     "location_alerts.expected_punch_count": {
       value: 18,
       links: [
         {
           label: "Show All 18",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+FTW6+-+1st+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+FTW6+-+1st+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5101,7 +5101,7 @@ const data = [
         {
           label: "Show All 8",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+FTW6+-+1st+Shift&f[locations.name]=AMAZON+FTW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+FTW6+-+1st+Shift&f[locations.name]=+FTW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5121,15 +5121,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON FTW2 - 1st Shift" },
-    "locations.name": { value: "AMAZON FTW2" },
+    "location_alerts.shift": { value: " FTW2 - 1st Shift" },
+    "locations.name": { value: " FTW2" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+FTW2+-+1st+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+FTW2+-+1st+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -5140,7 +5140,7 @@ const data = [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+FTW2+-+1st+Shift&f[locations.name]=AMAZON+FTW2&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+FTW2+-+1st+Shift&f[locations.name]=+FTW2&limit=500",
           type: "measure_default"
         }
       ]
@@ -5160,15 +5160,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON EWR6 - 1st Shift" },
-    "locations.name": { value: "AMAZON EWR6" },
+    "location_alerts.shift": { value: " EWR6 - 1st Shift" },
+    "locations.name": { value: " EWR6" },
     "location_alerts.expected_punch_count": {
       value: 9,
       links: [
         {
           label: "Show All 9",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+EWR6+-+1st+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+EWR6+-+1st+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5179,7 +5179,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+EWR6+-+1st+Shift&f[locations.name]=AMAZON+EWR6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+EWR6+-+1st+Shift&f[locations.name]=+EWR6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5199,15 +5199,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW7 - 1st Shift" },
-    "locations.name": { value: "AMAZON DFW7" },
+    "location_alerts.shift": { value: " DFW7 - 1st Shift" },
+    "locations.name": { value: " DFW7" },
     "location_alerts.expected_punch_count": {
       value: 21,
       links: [
         {
           label: "Show All 21",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+DFW7+-+1st+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+DFW7+-+1st+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -5218,7 +5218,7 @@ const data = [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+DFW7+-+1st+Shift&f[locations.name]=AMAZON+DFW7&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+DFW7+-+1st+Shift&f[locations.name]=+DFW7&limit=500",
           type: "measure_default"
         }
       ]
@@ -5238,15 +5238,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DFW6 - 1st Shift" },
-    "locations.name": { value: "AMAZON DFW6" },
+    "location_alerts.shift": { value: " DFW6 - 1st Shift" },
+    "locations.name": { value: " DFW6" },
     "location_alerts.expected_punch_count": {
       value: 9,
       links: [
         {
           label: "Show All 9",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+DFW6+-+1st+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+DFW6+-+1st+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5257,7 +5257,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+DFW6+-+1st+Shift&f[locations.name]=AMAZON+DFW6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+DFW6+-+1st+Shift&f[locations.name]=+DFW6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5277,15 +5277,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DEN6 - 1st Shift" },
-    "locations.name": { value: "AMAZON DEN6" },
+    "location_alerts.shift": { value: " DEN6 - 1st Shift" },
+    "locations.name": { value: " DEN6" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+DEN6+-+1st+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+DEN6+-+1st+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5296,7 +5296,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+DEN6+-+1st+Shift&f[locations.name]=AMAZON+DEN6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+DEN6+-+1st+Shift&f[locations.name]=+DEN6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5316,15 +5316,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON DAL6 - 1st Shift" },
-    "locations.name": { value: "AMAZON DAL6" },
+    "location_alerts.shift": { value: " DAL6 - 1st Shift" },
+    "locations.name": { value: " DAL6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+DAL6+-+1st+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+DAL6+-+1st+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5335,7 +5335,7 @@ const data = [
         {
           label: "Show All 1",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+DAL6+-+1st+Shift&f[locations.name]=AMAZON+DAL6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+DAL6+-+1st+Shift&f[locations.name]=+DAL6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5355,15 +5355,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BWI6 - 1st Shift" },
-    "locations.name": { value: "AMAZON BWI6" },
+    "location_alerts.shift": { value: " BWI6 - 1st Shift" },
+    "locations.name": { value: " BWI6" },
     "location_alerts.expected_punch_count": {
       value: 4,
       links: [
         {
           label: "Show All 4",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+BWI6+-+1st+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+BWI6+-+1st+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5374,7 +5374,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+BWI6+-+1st+Shift&f[locations.name]=AMAZON+BWI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+BWI6+-+1st+Shift&f[locations.name]=+BWI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5394,15 +5394,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BOS6 - 1st Shift" },
-    "locations.name": { value: "AMAZON BOS6" },
+    "location_alerts.shift": { value: " BOS6 - 1st Shift" },
+    "locations.name": { value: " BOS6" },
     "location_alerts.expected_punch_count": {
       value: 2,
       links: [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+BOS6+-+1st+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+BOS6+-+1st+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5413,7 +5413,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+BOS6+-+1st+Shift&f[locations.name]=AMAZON+BOS6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+BOS6+-+1st+Shift&f[locations.name]=+BOS6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5433,15 +5433,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI6 - 1st Shift" },
-    "locations.name": { value: "AMAZON BFI6" },
+    "location_alerts.shift": { value: " BFI6 - 1st Shift" },
+    "locations.name": { value: " BFI6" },
     "location_alerts.expected_punch_count": {
       value: 6,
       links: [
         {
           label: "Show All 6",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+BFI6+-+1st+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+BFI6+-+1st+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5452,7 +5452,7 @@ const data = [
         {
           label: "Show All 2",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+BFI6+-+1st+Shift&f[locations.name]=AMAZON+BFI6&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+BFI6+-+1st+Shift&f[locations.name]=+BFI6&limit=500",
           type: "measure_default"
         }
       ]
@@ -5472,15 +5472,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON BFI3 - 1st Shift" },
-    "locations.name": { value: "AMAZON BFI3" },
+    "location_alerts.shift": { value: " BFI3 - 1st Shift" },
+    "locations.name": { value: " BFI3" },
     "location_alerts.expected_punch_count": {
       value: 9,
       links: [
         {
           label: "Show All 9",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+BFI3+-+1st+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+BFI3+-+1st+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -5491,7 +5491,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+BFI3+-+1st+Shift&f[locations.name]=AMAZON+BFI3&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+BFI3+-+1st+Shift&f[locations.name]=+BFI3&limit=500",
           type: "measure_default"
         }
       ]
@@ -5511,15 +5511,15 @@ const data = [
         }
       ]
     },
-    "location_alerts.shift": { value: "AMAZON ATL9 - 1st Shift" },
-    "locations.name": { value: "AMAZON ATL9" },
+    "location_alerts.shift": { value: " ATL9 - 1st Shift" },
+    "locations.name": { value: " ATL9" },
     "location_alerts.expected_punch_count": {
       value: 3,
       links: [
         {
           label: "Show All 3",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+ATL9+-+1st+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+ATL9+-+1st+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
@@ -5530,7 +5530,7 @@ const data = [
         {
           label: "Show All 0",
           url:
-            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=AMAZON+ATL9+-+1st+Shift&f[locations.name]=AMAZON+ATL9&limit=500",
+            "/explore/Attendance/location_alerts?fields=locations.customer_id,locations.name&f[location_alerts.pseudo_local_expected_punch_date]=2018-08-09&f[location_alerts.shift]=+ATL9+-+1st+Shift&f[locations.name]=+ATL9&limit=500",
           type: "measure_default"
         }
       ]
