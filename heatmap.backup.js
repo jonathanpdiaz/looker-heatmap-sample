@@ -1,55 +1,9 @@
+
 (function() {
   var viz = {
     id: "kelsus_heatmap",
     label: "Kelsus Heatmap",
     options: {
-      legend: {
-        section: "Legend",
-        type: "boolean",
-        label: "Enable Legend",
-        default: false,
-        order: 1
-      },
-      legendEmptyPast: {
-        label: "Past Empty cell Legend",
-        section: "Legend",
-        type: "string",
-        placeholder: "Provide a text ...",
-        default: "No Value",
-        order: 2
-      },
-      legendEmptyFuture: {
-        label: "Future Empty cell Legend",
-        section: "Legend",
-        type: "string",
-        placeholder: "Provide a text ...",
-        default: "No Value",
-        order: 2
-      },
-      legendMin: {
-        label: "Min Value cell Legend",
-        section: "Legend",
-        type: "string",
-        placeholder: "Provide a text ...",
-        default: "Min",
-        order: 3
-      },
-      legendMid: {
-        label: "Mid Value cell Legend",
-        section: "Legend",
-        type: "string",
-        placeholder: "Provide a text ...",
-        default: "Mid",
-        order: 4
-      },
-      legendMax: {
-        label: "Max Value cell Legend",
-        section: "Legend",
-        type: "string",
-        placeholder: "Provide a text ...",
-        default: "Max",
-        order: 5
-      },
       chartName: {
         section: "Chart",
         label: "Chart Name",
@@ -62,21 +16,7 @@
         default: false,
         order: 1
       },
-      drillEnabled: {
-        section: "Chart",
-        type: "boolean",
-        label: "Enable Drill Down",
-        default: false
-      },
-      emptyColorFuture: {
-        section: "Empty",
-        type: "string",
-        label: "Empty cell Color",
-        display: "color",
-        default: "#fff",
-        order: 2
-      },
-      emptyColorPast: {
+      emptyColor: {
         section: "Empty",
         type: "string",
         label: "Empty cell Color",
@@ -89,7 +29,7 @@
         section: "Empty",
         type: "string",
         placeholder: "Provide an text ...",
-        default: "No Service",
+        default: 'No Service',
         order: 3
       },
       minColor: {
@@ -262,8 +202,7 @@
       const minColor = config.minColor;
       const midColor = config.midColor;
       const maxColor = config.maxColor;
-      const emptyColorPast = config.emptyColorPast;
-      const emptyColorFuture = config.emptyColorFuture;
+      const emptyColor = config.emptyColor;
 
       const minThreshold = config.minThreshold;
       const midThreshold = config.midThreshold;
@@ -271,32 +210,9 @@
 
       const labels = config.labels;
       const labelColor = config.labelColor;
-
+      
       const emptyTooltip = config.emptyTooltip;
       const fillEmpty = config.fillEmpty;
-
-      const legend = config.legend;
-      const legendEmptyPast = config.legendEmptyPast;
-      const legendEmptyFuture = config.legendEmptyFuture;
-      const legendMin = config.legendMin;
-      const legendMid = config.legendMid;
-      const legendMax = config.legendMax;
-
-      const isToday = td => {
-        if (td) {
-          const d = new Date();
-          const date = td.split("-");
-          console.log("->", date);
-          console.log(d.getDate(), d.getMonth(), d.getFullYear());
-          return (
-            date[2] == d.getDate() &&
-            date[1] == d.getMonth() + 1 &&
-            date[0] == d.getFullYear()
-          );
-        } else {
-          return false;
-        }
-      };
 
       if (fillEmpty) {
         for (let xIndex = 0; xIndex < xExtent.categories.length; xIndex++) {
@@ -305,20 +221,11 @@
               return element.x === xIndex && element.y === yIndex;
             });
             if (!item) {
-              const date = xExtent.categories[xIndex];
-              if (isToday(date)) {
-                series.push({
-                  x: xIndex,
-                  y: yIndex,
-                  value: -100
-                });
-              } else {
-                series.push({
-                  x: xIndex,
-                  y: yIndex,
-                  value: -1
-                });
-              }
+              series.push({
+                x: xIndex,
+                y: yIndex,
+                value: null
+              });
             }
           }
         }
@@ -326,14 +233,7 @@
 
       dataLabels = {
         enabled: labels,
-        color: labelColor,
-        formatter: function() {
-          const value =
-            this.point.data &&
-            this.point.data[measure_2] &&
-            this.point.data[measure_2].value;
-          return value > 0 ? value : null;
-        }
+        color: labelColor
       };
 
       let options = {
@@ -344,10 +244,7 @@
           type: "heatmap"
         },
         title: { text: config.chartName },
-        legend: {
-          enabled: legend,
-          verticalAlign: "top"
-        },
+        legend: { enabled: false },
         xAxis: {
           labels: {
             align: "right",
@@ -391,33 +288,21 @@
         colorAxis: {
           dataClasses: [
             {
-              color: emptyColorFuture,
-              from: -100,
-              to: -10,
-              name: legendEmptyFuture
-            },
-            {
-              color: emptyColorPast,
-              from: -10,
-              to: 0,
-              name: legendEmptyPast
-            },
-            {
               color: minColor,
               from: minThreshold,
               to: midThreshold,
-              name: legendMin
+              name: "min"
             },
             {
               color: midColor,
               from: midThreshold,
               to: maxThreshold,
-              name: legendMid
+              name: "mid"
             },
             {
               color: maxColor,
               from: maxThreshold,
-              name: legendMax
+              name: "max"
             }
           ]
         },
@@ -426,7 +311,7 @@
             data: series,
             borderWidth: 2,
             borderColor: "#fff",
-            nullColor: emptyColorPast,
+            nullColor: emptyColor,
             borderRadius: 4,
             dataLabels,
             tooltip: {
@@ -456,3 +341,4 @@
   };
   looker.plugins.visualizations.add(viz);
 })();
+

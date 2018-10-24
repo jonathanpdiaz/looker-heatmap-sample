@@ -1530,10 +1530,12 @@ const queryResponse = {
 };
 
 const config = {
+  legend: true,
+  labels: true,
+  fillEmpty: true,
   midColor: "#fcedbf",
   minColor: "#c97489",
   maxColor: "#7aaa85",
-  dataLabels: true,
   query_fields: {
     measures: [
       {

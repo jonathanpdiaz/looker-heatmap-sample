@@ -6061,7 +6061,7 @@ const queryResponse = {
 };
 
 const config = {
-  legend: true,
+  legend: false,
   legendEmpty: "No Value",
   legendMin: "Min",
   legendMid: "Mid",
@@ -6318,6 +6318,16 @@ const config = {
 function handleErrors() {
   return true;
 }
+
+var LookerCharts = {
+  Utils: {
+    openDrillMenu: function({ links, element, event }) {
+      console.log("event", event);
+      console.log("links", links);
+      console.log("element", element);
+    }
+  }
+};
 
 let looker = {
   plugins: {
